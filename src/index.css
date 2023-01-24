@@ -1,13 +1,26 @@
+*{
+  --color-principal: #65C400;
+  --color-secundario: #DDDEDC;
+  --color-principalGlass: #65c4005b;
+  --color-secundarioGlass: #dddedccc;
+  --color-texto: #383838;
+  --color-textoGlass: #383838a9;
+  --color-border: #dee2e6;
+  --color-placeholder: #b4b4b4;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6, p{
+  margin-top: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
