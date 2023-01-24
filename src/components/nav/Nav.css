@@ -8,6 +8,16 @@
     --color-border: #dee2e6;
     --color-placeholder: #b4b4b4;
 }
-/* .wrapper_nav nav{
-    max-width: ;
+.wrapper_nav nav{
+    height: 60px;
+}
+.wrapper_nav .navbar-brand img{
+    height: 60px;
+}
+
+/* @media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        width: 500px;
+        justify-content: center;
+    }
 } */
