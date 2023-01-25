@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../assets/images/ebg-logo-large.png";
 import "./Nav.css";
 
@@ -20,10 +21,10 @@ export const Nav = () => {
                         <div className="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item px-lg-3">
-                                    <a className="nav-link" aria-current="page" href="/">Inicio</a>
+                                    <Link to="/" className="nav-link">Inicio</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <a className="nav-link" href="/">Nosotros</a>
+                                    <Link to="/nosotros" className="nav-link">Nosotros</Link>
                                 </li>
                                 <li className="nav-item dropdown px-lg-3">
                                     <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,10 +38,10 @@ export const Nav = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <a className="nav-link" href="/">Proyectos</a>
+                                    <Link to="/proyectos" className="nav-link">Proyectos</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <a className="nav-link" href="/">Contacto</a>
+                                    <Link to="/contacto" className="nav-link">Contacto</Link>
                                 </li>
                             </ul>
                         </div>
