@@ -15,9 +15,9 @@
     height: 60px;
 }
 
-/* @media (min-width: 992px){
-    .navbar-expand-lg .navbar-collapse{
-        width: 500px;
-        justify-content: center;
-    }
-} */
+.nav-link{
+    font-weight: 600;
+}
+.active{
+    color: var(--color-principal) !important;
+}

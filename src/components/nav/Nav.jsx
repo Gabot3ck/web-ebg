@@ -4,6 +4,8 @@ import "./Nav.css";
 
 export const Nav = () => {
 
+    
+
     return (<>
         <div className="wrapper_nav w-100">
             <nav className="navbar navbar-expand-lg bg-light py-0">
@@ -21,10 +23,10 @@ export const Nav = () => {
                         <div className="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/" className="nav-link">Inicio</Link>
+                                    <Link to="/" className={`nav-link ${window.location.pathname === "/" ? "active" : ""}`}>Inicio</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/nosotros" className="nav-link">Nosotros</Link>
+                                    <Link to="/nosotros" className={`nav-link ${window.location.pathname === "/nosotros" ? "active" : ""}`}>Nosotros</Link>
                                 </li>
                                 <li className="nav-item dropdown px-lg-3">
                                     <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,10 +40,10 @@ export const Nav = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/proyectos" className="nav-link">Proyectos</Link>
+                                    <Link to="/proyectos" className={`nav-link ${window.location.pathname === "/proyectos" ? "active" : ""}`}>Proyectos</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/contacto" className="nav-link">Contacto</Link>
+                                    <Link to="/contacto" className={`nav-link ${window.location.pathname === "/contacto" ? "active" : ""}`}>Contacto</Link>
                                 </li>
                             </ul>
                         </div>
