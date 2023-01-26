@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     z-index: 980;
-    background-color: #dee2e6;
+    background-color: transparent;
 }
 .wrapper_nav nav{
     max-width: 1320px;
@@ -24,7 +24,14 @@
 
 .nav-link{
     font-weight: 600;
+    color: var(--color-secundario);
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--color-principal);
+    text-decoration: underline;
 }
 .active{
     color: var(--color-principal) !important;
+    text-decoration: underline;
 }

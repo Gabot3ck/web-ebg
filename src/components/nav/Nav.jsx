@@ -8,7 +8,7 @@ export const Nav = () => {
 
     return (<>
         <div className="wrapper_nav w-100">
-            <nav className="navbar navbar-expand-lg bg-light py-0 mx-auto">
+            <nav className="navbar navbar-expand-lg  py-0 mx-auto">
                 <div className="container-fluid h-100 px-4 d-flex ">
 
                     <a className="navbar-brand p-0" href="/">
