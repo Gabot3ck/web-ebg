@@ -1,0 +1,23 @@
+*{
+    --color-principal: #65C400;
+    --color-secundario: #DDDEDC;
+    --color-principalGlass: #65c4005b;
+    --color-secundarioGlass: #dddedccc;
+    --color-texto: #383838;
+    --color-textoGlass: #383838a9;
+    --color-border: #dee2e6;
+    --color-placeholder: #b4b4b4;
+}
+
+.wrapper_queHacemos{
+    padding: 1.8rem 0;
+    background-color: var(--color-secundario);
+}
+.main_queHacemos{
+    max-width: 1300px;
+    /* background-color: #65C400; */
+}
+.main_queHacemos h2{
+    font-size: 3.4rem;
+    font-weight: 600;
+}
