@@ -8,7 +8,14 @@
     --color-border: #dee2e6;
     --color-placeholder: #b4b4b4;
 }
+.wrapper_nav{
+    position: fixed;
+    top: 0;
+    z-index: 980;
+    background-color: #dee2e6;
+}
 .wrapper_nav nav{
+    max-width: 1320px;
     height: 60px;
 }
 .wrapper_nav .navbar-brand img{
