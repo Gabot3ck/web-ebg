@@ -2,7 +2,7 @@ import { HeaderHome } from "./header_home/HeaderHome";
 import { Nav } from "../../nav/Nav";
 import "./Home.css";
 import { QueHacemos } from "./que_hacemos/QueHacemos";
-import { Odometro } from "../../../helpers/Odometro";
+import { DatosEstadisticos } from "./estadistica/DatosEstadisticos";
 
 export const Home = () => {
     
@@ -10,7 +10,7 @@ export const Home = () => {
         <Nav/>
         <HeaderHome/>
         <QueHacemos/>
-        <Odometro inicia={12} termina={98}/>
+        <DatosEstadisticos/>
         
     </>)
 }

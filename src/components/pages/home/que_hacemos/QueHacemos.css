@@ -18,7 +18,7 @@
 .main_queHacemos{
     max-width: 1300px;
     display: grid;
-    grid-template-columns: repeat(2, 634px);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 400px 50px;
     grid-gap: 2rem;
     grid-template-areas: 
@@ -37,7 +37,7 @@
     
 }
 .main_queHacemos_texto p{
-    width: clamp(300px, 90vw, 480px);
+    width: clamp(300px, 90%, 480px);
     font-weight: 500;
     color: var(--color-parrafos);
     font-size: 1.15rem;

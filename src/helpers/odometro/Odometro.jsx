@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Odometer from 'react-odometerjs';
+import "./Odometro.css"
 
 export const Odometro = ({ inicia, termina}) => {
 
@@ -13,7 +14,7 @@ export const Odometro = ({ inicia, termina}) => {
     }, [termina]);
 
     return (<>
-        <Odometer value={value} format="(.ddd),dd" />
+        <Odometer className='odometro' value={value} format="(.ddd),dd" />
     </>)
     
     
