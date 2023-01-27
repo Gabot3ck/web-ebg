@@ -7,17 +7,45 @@
     --color-textoGlass: #383838a9;
     --color-border: #dee2e6;
     --color-placeholder: #b4b4b4;
+    --color-fondo: #f8f9fa;
+    --color-parrafos: #515e72;
 }
 
 .wrapper_queHacemos{
-    padding: 1.8rem 0;
-    background-color: var(--color-secundario);
+    padding: 7rem 0 3.5rem;
+    background-color: var(--color-fondo);
 }
 .main_queHacemos{
     max-width: 1300px;
-    /* background-color: #65C400; */
+    display: grid;
+    grid-template-columns: repeat(2, 634px);
+    grid-template-rows: 50px 400px 50px;
+    grid-gap: 2rem;
+    grid-template-areas: 
+        "texto    ."
+        "texto   img"
+        "  .     img";
 }
-.main_queHacemos h2{
-    font-size: 3.4rem;
+.main_queHacemos div:first-child{
+    grid-area: texto;
+    justify-items: start;
+}
+.main_queHacemos div:first-child h2{
+    width: 100%;
+    font-size: 2.8rem;
     font-weight: 600;
+    
+}
+.main_queHacemos_texto p{
+    width: clamp(300px, 90vw, 480px);
+    font-weight: 500;
+    color: var(--color-parrafos);
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+.main_queHacemos div:last-child{
+    grid-area: img;
+}
+.main_queHacemos div:last-child img{
+    transform: scale(1.2);
 }
