@@ -13,7 +13,7 @@
 .wrapper_estadisticas{
     min-height: 211px;
     background-color: var(--color-principal);
-    color: var(--color-secundario);
+    color: white;
 }
 .wrapper_estadisticas > div{
     height: 98%;
@@ -24,4 +24,5 @@
     font-weight: 600;
     
 }
+
 
