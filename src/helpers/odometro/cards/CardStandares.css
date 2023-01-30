@@ -1,0 +1,23 @@
+*{
+    --color-principal: #65C400;
+    --color-secundario: #DDDEDC;
+    --color-principalGlass: #65c4005b;
+    --color-secundarioGlass: #dddedccc;
+    --color-texto: #383838;
+    --color-textoGlass: #383838a9;
+    --color-border: #dee2e6;
+    --color-placeholder: #b4b4b4;
+    --color-fondo: #f8f9fa;
+    --color-parrafos: #515e72;
+}
+.card_standard .card-title{
+    font-size: clamp(1rem,     0.60rem   +  1.35vw,  2.37rem);;
+    font-weight: 600;
+}
+.card_standard .card{
+    border: none;
+}
+.fa-hard-hat, .fa-users, .fa-globe-americas, .fa-award{
+    font-size: 3.8rem;
+    color: var(--color-principal);
+}
