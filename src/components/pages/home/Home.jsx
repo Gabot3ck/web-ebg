@@ -5,6 +5,7 @@ import { QueHacemos } from "./que_hacemos/QueHacemos";
 import { DatosEstadisticos } from "./estadistica/DatosEstadisticos";
 import { AlgunosTrabajos } from "./trabajos/AlgunosTrabajos";
 import { PorQueNosotros } from "./por_que_nosotros/PorQueNosotros";
+import { NuestrosServicios } from "./servicios/NuestrosServicios";
 
 export const Home = () => {
     
@@ -15,6 +16,7 @@ export const Home = () => {
         <DatosEstadisticos/>
         <AlgunosTrabajos/>
         <PorQueNosotros/>
+        <NuestrosServicios/>
         
     </>)
 }

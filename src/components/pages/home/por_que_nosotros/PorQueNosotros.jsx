@@ -1,4 +1,4 @@
-import { CardStandares } from "../../../../helpers/odometro/cards/CardStandares";
+import { CardStandares } from "../../../../helpers/cards/CardStandares";
 import "./PorQueNosotros.css";
 
 export const PorQueNosotros = () => {
@@ -10,7 +10,7 @@ export const PorQueNosotros = () => {
             </div>
 
             <div className="container">
-                <div class="row px-5 px-xxl-0 row-cols-1 row-cols-md-2 g-4">
+                <div className="row px-5 px-xxl-0 row-cols-1 row-cols-md-2 g-4">
                     <CardStandares 
                         icono="fa-globe-americas"
                         titulo="Medio Ambiente"

@@ -1,0 +1,45 @@
+*{
+    --color-principal: #65C400;
+    --color-secundario: #DDDEDC;
+    --color-principalGlass: #65c4005b;
+    --color-secundarioGlass: #dddedccc;
+    --color-texto: #383838;
+    --color-textoGlass: #383838a9;
+    --color-border: #dee2e6;
+    --color-placeholder: #b4b4b4;
+    --color-fondo: #f8f9fa;
+    --color-parrafos: #515e72;
+}
+.container-servicios-enlaces{
+	transition: all 0.3s ease;
+}
+.container-servicios-enlaces a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	color: var(--color-texto);
+    font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container-servicios-enlaces a:hover,
+.container-servicios-enlaces a:hover >*{
+    color: var(--color-principal);
+}
+.container-servicios-enlaces a:focus,
+.container-servicios-enlaces a:focus >*{
+    color: var(--color-principal);
+}
+.icon_activo,
+.icon_activo > *{
+	color: var(--color-principal) !important;
+}
+.fa-paste, .fa-building, .fa-faucet, .fa-tools, .fa-bacon, .fa-warehouse{
+	margin-right: .8rem;
+	color: var(--color-texto);
+	transform: scaleX(1.1);
+}
+.container-servicios .carousel-item{
+    display: flex;
+    flex-direction: row;
+}
