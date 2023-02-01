@@ -24,15 +24,11 @@
 	text-align: center;
 }
 .container-servicios-enlaces button:hover,
-.container-servicios-enlaces button:hover >*{
+.container-servicios-enlaces button:hover > * {
     color: var(--color-principal);
 }
-/* .container-servicios-enlaces a:focus,
-.container-servicios-enlaces a:focus >*{
-    color: var(--color-principal);
-} */
 .icon_activo,
-.icon_activo > *{
+.icon_activo > i {
 	color: var(--color-principal) !important;
 }
 .fa-paste, .fa-building, .fa-faucet, .fa-tools, .fa-bacon, .fa-warehouse{
@@ -40,7 +36,25 @@
 	color: var(--color-texto);
 	transform: scaleX(1.1);
 }
-.container-servicios .carousel-item{
+.wrapper_carrusel_servicios .carousel-item{
+    transition: all .3s ease;
+}
+.wrapper_carrusel_servicios .carousel-item img{
+    width: 50%;
+}
+.wrapper_carrusel_servicios .carousel-item .caption{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color-fondo);
+    background-color: var(--color-principal);
+}
+.wrapper_carrusel_servicios .carousel-item .caption h3{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.wrapper_carrusel_servicios .carousel-item .caption p{
+    max-width: 80%;
 }
