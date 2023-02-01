@@ -7,6 +7,7 @@ import { PorQueNosotros } from "./por_que_nosotros/PorQueNosotros";
 import { NuestrosServicios } from "./servicios/NuestrosServicios";
 import { Clientes } from "./clientes/Clientes";
 import "./Home.css";
+import { Footer } from "../footer/Footer";
 
 
 export const Home = () => {
@@ -20,6 +21,7 @@ export const Home = () => {
         <PorQueNosotros/>
         <NuestrosServicios/>
         <Clientes />
+        <Footer />
         
     </>)
 }

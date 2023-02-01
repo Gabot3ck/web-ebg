@@ -1,0 +1,40 @@
+*{
+    --color-principal: #65C400;
+    --color-secundario: #DDDEDC;
+    --color-principalGlass: #65c4005b;
+    --color-secundarioGlass: #dddedccc;
+    --color-texto: #383838;
+    --color-textoGlass: #383838a9;
+    --color-border: #dee2e6;
+    --color-placeholder: #b4b4b4;
+    --color-fondo: #f8f9fa;
+    --color-parrafos: #515e72;
+    --color-footer: #1f1f1f;
+}
+footer{
+    color: var(--color-fondo);
+    background-color: var(--color-footer);
+}
+.footer_pie{
+    width: clamp(300px, 80%, 1320px);
+}
+.footer_pie .titulo_footer{
+    font-size: 1.1rem;
+}
+.bi-linkedin, .bi-instagram{
+    color: var(--color-principal);
+}
+.pie_copyright p{
+    font-size: .85rem;
+    font-weight: 400;
+    color: var(--color-placeholder);
+    word-spacing: 5px;
+}
+.autor{
+    font-size: .78rem;
+    color: var(--color-placeholder);
+}
+.autor a{
+    color: var(--color-principal);
+    font-weight: 500;
+}
