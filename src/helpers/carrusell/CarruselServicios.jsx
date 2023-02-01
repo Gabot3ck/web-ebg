@@ -9,22 +9,19 @@ import "./CarruselServicios.css";
 import { useState } from "react";
 import { EnlacesCarrusel } from "./EnlacesCarrusel";
 
+
 const arrayId = [0, 1, 2, 3, 4, 5];
+
 
 export const CarruselServicios = () => {
 
-    
-    // const [idEnlace, setIdEnlace] = useState(0);
+    const [idEnlace, setIdEnlace] = useState(0);
 
-    // const cambiarEnlace = id => {
-    //     setIdEnlace(id)
-    // }
-    
+    const cambiarEnlace = id => {
+        setIdEnlace(id)
+    }
     
 
-
-
-    
     return (<>
         <section className="wrapper_carrusel_servicios mx-auto">
             <div className="container-servicios-enlaces py-3 d-flex justify-content-evenly w-100">
@@ -33,31 +30,11 @@ export const CarruselServicios = () => {
                         <EnlacesCarrusel 
                             key={ el }
                             index={ index }
-                            className={`enlace-servicios my-0`}
-                            titulo= "Titulo"
+                            className={`enlace-servicios my-0 ${idEnlace === el ? "icon_activo" : ""}`}
+                            onClick={ () => cambiarEnlace(el) }
                         />
                     ))
                 }
-                {/* <button href="#slide1" className={ `enlace-servicios my-0 icon_activo ${ apagado && "icon_apagado"}` } onClick={ activarIcon }  data-bs-target="#myCarousel" data-bs-slide-to="0">
-                    <i className="fas fa-paste i step-5" ></i>Consultoría
-                </button>
-                <button href="#slide2" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="1" >
-                    <i className="fas fa-faucet i step-5"></i>Agua y Alcantarillado
-                </button>
-                <button href="#slide3" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon }  data-bs-target="#myCarousel" data-bs-slide-to="2">
-                    <i className="far fa-building i step-5"></i>Edificación
-                </button>
-                <button href="#slide4" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="3">
-                    <i className="fas fa-tools i step-5"></i>Estructuras Metálicas
-                </button>
-                <button href="#slide5" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="4">
-                    <i className="fas fa-bacon i step-5"></i>Caminos
-                </button>
-                <button href="#slide6" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="5">
-                    <i className="fas fa-warehouse i step-5"></i>Módulos de containers
-                </button>	 */}
-
-                
             </div>
 
             <div id="myCarousel" className="carousel slide carousel-fade" data-bs-touch="true" data-bs-ride="false">

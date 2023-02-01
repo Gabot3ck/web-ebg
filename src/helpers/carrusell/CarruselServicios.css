@@ -35,10 +35,6 @@
 .icon_activo > *{
 	color: var(--color-principal) !important;
 }
-.icon_apagado,
-.icon_apagado > *{
-	color: var(--color-texto) !important;
-}
 .fa-paste, .fa-building, .fa-faucet, .fa-tools, .fa-bacon, .fa-warehouse{
 	margin-right: .8rem;
 	color: var(--color-texto);
