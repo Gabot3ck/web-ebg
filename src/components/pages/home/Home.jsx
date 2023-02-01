@@ -8,6 +8,7 @@ import { NuestrosServicios } from "./servicios/NuestrosServicios";
 import { Clientes } from "./clientes/Clientes";
 import "./Home.css";
 import { Footer } from "../footer/Footer";
+import { BtnWhatsApp } from "../../../helpers/boton_whatsapp/BtnWhatsApp";
 
 
 export const Home = () => {
@@ -22,6 +23,6 @@ export const Home = () => {
         <NuestrosServicios/>
         <Clientes />
         <Footer />
-        
+        <BtnWhatsApp />
     </>)
 }

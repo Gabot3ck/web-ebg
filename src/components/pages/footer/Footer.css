@@ -31,7 +31,7 @@ footer{
     word-spacing: 5px;
 }
 .autor{
-    font-size: .78rem;
+    font-size: .75rem;
     color: var(--color-placeholder);
 }
 .autor a{
