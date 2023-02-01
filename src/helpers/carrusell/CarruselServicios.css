@@ -13,7 +13,8 @@
 .container-servicios-enlaces{
 	transition: all 0.3s ease;
 }
-.container-servicios-enlaces a{
+.container-servicios-enlaces > button{
+    border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,17 +23,21 @@
 	text-transform: uppercase;
 	text-align: center;
 }
-.container-servicios-enlaces a:hover,
-.container-servicios-enlaces a:hover >*{
+.container-servicios-enlaces button:hover,
+.container-servicios-enlaces button:hover >*{
     color: var(--color-principal);
 }
-.container-servicios-enlaces a:focus,
+/* .container-servicios-enlaces a:focus,
 .container-servicios-enlaces a:focus >*{
     color: var(--color-principal);
-}
+} */
 .icon_activo,
 .icon_activo > *{
 	color: var(--color-principal) !important;
+}
+.icon_apagado,
+.icon_apagado > *{
+	color: var(--color-texto) !important;
 }
 .fa-paste, .fa-building, .fa-faucet, .fa-tools, .fa-bacon, .fa-warehouse{
 	margin-right: .8rem;

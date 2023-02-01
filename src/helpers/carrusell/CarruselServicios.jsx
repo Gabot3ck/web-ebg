@@ -7,38 +7,57 @@ import edificacion from "../../assets/images/carrusel_servicios/edificacion.jpg"
 import estructuras from "../../assets/images/carrusel_servicios/estructuras.jpg";
 import "./CarruselServicios.css";
 import { useState } from "react";
+import { EnlacesCarrusel } from "./EnlacesCarrusel";
 
+const arrayId = [0, 1, 2, 3, 4, 5];
 
 export const CarruselServicios = () => {
 
-    const [focus, setfocus] = useState(true);
-    // const [activo, setActivo] = useState(false);
+    
+    // const [idEnlace, setIdEnlace] = useState(0);
 
-    const activarFocus = () => {
-        setfocus(false)
-    }
+    // const cambiarEnlace = id => {
+    //     setIdEnlace(id)
+    // }
+    
+    
 
+
+
+    
     return (<>
         <section className="wrapper_carrusel_servicios mx-auto">
             <div className="container-servicios-enlaces py-3 d-flex justify-content-evenly w-100">
-                <a href="#slide1" className={`enlace-servicios my-0 ${ focus && "icon_activo"} `} id="enlace1" data-bs-target="#myCarousel" data-bs-slide-to="0">
-                    <i className="fas fa-paste i step-5" ></i><span>Consultoría</span>
-                </a>
-                <a href="#slide2" className="enlace-servicios my-0" onClick={ activarFocus } data-bs-target="#myCarousel" data-bs-slide-to="1" >
-                    <i className="fas fa-faucet i step-5"></i><span>Agua y Alcantarillado</span>
-                </a>
-                <a href="#slide3" className="enlace-servicios my-0 " onClick={ activarFocus }  data-bs-target="#myCarousel" data-bs-slide-to="2">
-                    <i className="far fa-building i step-5"></i><span>Edificación</span>
-                </a>
-                <a href="#slide4" className="enlace-servicios my-0" onClick={ activarFocus } data-bs-target="#myCarousel" data-bs-slide-to="3">
-                    <i className="fas fa-tools i step-5"></i><span>Estructuras Metálicas</span>
-                </a>
-                <a href="#slide5" className="enlace-servicios my-0" onClick={ activarFocus } data-bs-target="#myCarousel" data-bs-slide-to="4">
-                    <i className="fas fa-bacon i step-5"></i><span>Caminos</span>
-                </a>
-                <a href="#slide6" className="enlace-servicios my-0" onClick={ activarFocus } data-bs-target="#myCarousel" data-bs-slide-to="5">
-                    <i className="fas fa-warehouse i step-5"></i><span>Módulos de containers</span>
-                </a>		
+                {
+                    arrayId.map( (el,index) => (
+                        <EnlacesCarrusel 
+                            key={ el }
+                            index={ index }
+                            className={`enlace-servicios my-0`}
+                            titulo= "Titulo"
+                        />
+                    ))
+                }
+                {/* <button href="#slide1" className={ `enlace-servicios my-0 icon_activo ${ apagado && "icon_apagado"}` } onClick={ activarIcon }  data-bs-target="#myCarousel" data-bs-slide-to="0">
+                    <i className="fas fa-paste i step-5" ></i>Consultoría
+                </button>
+                <button href="#slide2" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="1" >
+                    <i className="fas fa-faucet i step-5"></i>Agua y Alcantarillado
+                </button>
+                <button href="#slide3" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon }  data-bs-target="#myCarousel" data-bs-slide-to="2">
+                    <i className="far fa-building i step-5"></i>Edificación
+                </button>
+                <button href="#slide4" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="3">
+                    <i className="fas fa-tools i step-5"></i>Estructuras Metálicas
+                </button>
+                <button href="#slide5" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="4">
+                    <i className="fas fa-bacon i step-5"></i>Caminos
+                </button>
+                <button href="#slide6" className={ `enlace-servicios my-0 ${ apagado && "icon_apagado"}` } onClick={ activarIcon } data-bs-target="#myCarousel" data-bs-slide-to="5">
+                    <i className="fas fa-warehouse i step-5"></i>Módulos de containers
+                </button>	 */}
+
+                
             </div>
 
             <div id="myCarousel" className="carousel slide carousel-fade" data-bs-touch="true" data-bs-ride="false">
