@@ -11,7 +11,7 @@ export const Clientes = () => {
             <div className="clientes_texto mx-auto mb-4">
                 <h2 className="text-center">Nuestros Clientes</h2>
             </div>
-            <div class="clientes_logos d-flex justify-content-between mx-auto">
+            <div className="clientes_logos d-flex justify-content-between mx-auto">
                     <img src={ dominion } alt="" />
                     <img src={ enel } alt="" />
                     <img src={ engie } alt="" />

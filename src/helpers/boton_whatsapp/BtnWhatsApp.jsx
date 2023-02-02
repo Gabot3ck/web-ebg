@@ -2,12 +2,12 @@ import "./BtnWhatsApp.css";
 
 export const BtnWhatsApp = () => {
     return (<>
-        <div class="btn-whatsapp">
+        <div className="btn-whatsapp">
             <a 
                 href="https://api.whatsapp.com/send?phone=+56993321198&text= Estimados EBG, nececito que me puedan audar con:" 
                 target="_blank" 
                 rel="noopener noreferrer">
-                    <i class="bi bi-whatsapp"></i>
+                    <i className="bi bi-whatsapp"></i>
             </a>
             <div className="caja d-flex justify-content-center"  >
                 <span>
