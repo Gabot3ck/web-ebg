@@ -3,11 +3,13 @@ import "./ModalProyectos.css";
 
 
 
-export const ModalProyectos = ({ img, alt, titulo }) => {
+export const ModalProyectos = ({ img, alt, titulo, area }) => {
     return (<>
         
-        <button type="button" className="btn_modal px-0" data-bs-toggle="modal" data-bs-target={`#${img}`}>
-            <img src={ img } alt={ alt } />
+        <button type="button" className="btn_modal px-0 rounded" data-bs-toggle="modal" data-bs-target={`#${img}`}>
+            <img src={ img } alt={ alt } className="rounded-top" />
+            <h3 className="fs-5 text-center">{ titulo }</h3>
+            <p>{area}</p>
         </button>
 
 

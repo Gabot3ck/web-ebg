@@ -13,26 +13,38 @@ export const AlgunosTrabajos = () => {
                 <p className="text-center mx-auto">Nuestra empresa se rige por estándares internacionales que aseguran la compatibilidad con el medioambiente, y la seguridad de nuestros trabajadores, clientes y proveedores.</p>
             </div>
             
-            <main className="wrapper_trabajos_card d-flex ">
+            <main className="wrapper_trabajos_card d-flex px-2">
 
-                <section className="trabajos_card col-3">
-                    <ModalProyectos img={ LaReina } titulo="Caseta Municipal La Reina"/>
-                    <h3 className="fs-5 text-center py-2">Caseta Municipal La Reina</h3>
+                <section className="trabajos_card col-3 px-2">
+                    <ModalProyectos 
+                        img={ LaReina } 
+                        titulo="Caseta Municipal La Reina"
+                        area="Remodelaciones"
+                        />
                 </section>
 
-                <section className="trabajos_card col-3">
-                    <ModalProyectos img={ Estructura } titulo="Remodelación Tal Tal"/>
-                    <h3 className="fs-5 text-center py-2">Remodelación Tal Tal</h3>
+                <section className="trabajos_card col-3 px-2">
+                    <ModalProyectos 
+                        img={ Estructura } 
+                        titulo="Remodelación Tal Tal"
+                        area="OOCC"
+                        />
                 </section>
 
-                <section className="trabajos_card col-3">
-                    <ModalProyectos img={  Remodelaciones  } titulo="Oficinas de Edificio ENEL"/>
-                    <h3 className="fs-5 text-center py-2">Oficinas de Edificio ENEL</h3>
+                <section className="trabajos_card col-3 px-2">
+                    <ModalProyectos 
+                        img={  Remodelaciones  } 
+                        titulo="Oficinas de Edificio ENEL"
+                        area="Carpintería"
+                        />
                 </section>
 
-                <section className="trabajos_card col-3">
-                    <ModalProyectos img={ Estructura2 } titulo="Remodelaciones"/>
-                    <h3 className="fs-5 text-center py-2">Remodelaciones</h3>
+                <section className="trabajos_card col-3 px-2">
+                    <ModalProyectos 
+                        img={ Estructura2 } 
+                        titulo="Remodelaciones"
+                        area="Remodelaciones"
+                        />
                 </section>
 
             </main>

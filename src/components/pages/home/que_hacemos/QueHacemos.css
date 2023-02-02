@@ -14,7 +14,7 @@
 .wrapper_queHacemos{
     position: relative;
     padding: 7rem 0 3.5rem;
-    background: linear-gradient(to left, rgba(247, 246, 246, 0.93), rgba(250, 255, 251, 0.68)),
+    background: linear-gradient(to left, rgba(247, 246, 246, 0.93), rgba(250, 255, 251, 0.62)),
                 url(../../../../../public/images/planos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
