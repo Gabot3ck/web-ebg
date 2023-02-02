@@ -1,18 +1,31 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/ebg-logo-large.png";
+import LogoDark from "../../assets/images/ebg-logo-dark.png";
+import LogoLight from "../../assets/images/ebg-logo-light.png";
+
 import "./Nav.css";
 
 export const Nav = () => {
 
-    
+    const [color, setcolor] = useState(false);
+
+    const addBgColor = () => {
+        if(window.scrollY > 90 ){
+            setcolor(true)
+        } else {
+            setcolor(false);
+        }
+    }
+
+    window.addEventListener("scroll", addBgColor);
 
     return (<>
-        <div className="wrapper_nav w-100">
+        <div className={ `wrapper_nav w-100 ${color && "bg_nav"}`}>
             <nav className="navbar navbar-expand-lg  py-0 mx-auto">
                 <div className="container-fluid h-100 px-4 d-flex ">
 
                     <a className="navbar-brand p-0" href="/">
-                        <img className="" src={Logo} alt="Logo EBG" />
+                        <img className="" src={!color ? LogoLight : LogoDark} alt="Logo EBG" />
                     </a>
 
                     
@@ -23,13 +36,13 @@ export const Nav = () => {
                         <div className="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/" className={`nav-link ${window.location.pathname === "/" ? "active" : ""}`}>Inicio</Link>
+                                    <Link to="/" className={`nav-link ${window.location.pathname === "/" ? "active" : ""} ${color && "bg_nav_a"}`}>Inicio</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/nosotros" className={`nav-link ${window.location.pathname === "/nosotros" ? "active" : ""}`}>Nosotros</Link>
+                                    <Link to="/nosotros" className={`nav-link ${window.location.pathname === "/nosotros" ? "active" : ""} ${color && "bg_nav_a"}`}>Nosotros</Link>
                                 </li>
                                 <li className="nav-item dropdown px-lg-3">
-                                    <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a className= {`nav-link dropdown-toggle ${color && "bg_nav_a"}`} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Servicios
                                     </a>
                                     <ul className="dropdown-menu">
@@ -40,10 +53,10 @@ export const Nav = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/proyectos" className={`nav-link ${window.location.pathname === "/proyectos" ? "active" : ""}`}>Proyectos</Link>
+                                    <Link to="/proyectos" className={`nav-link ${window.location.pathname === "/proyectos" ? "active" : ""} ${color && "bg_nav_a"}`}>Proyectos</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/contacto" className={`nav-link ${window.location.pathname === "/contacto" ? "active" : ""}`}>Contacto</Link>
+                                    <Link to="/contacto" className={`nav-link ${window.location.pathname === "/contacto" ? "active" : ""} ${color && "bg_nav_a"}`}>Contacto</Link>
                                 </li>
                             </ul>
                         </div>
