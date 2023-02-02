@@ -1,6 +1,6 @@
-import "./QueHacemos.css";
-import imgHerramientas from "../../../../assets/images/herramientas.png"
 import { Link } from "react-router-dom";
+import imgHerramientas from "../../../../assets/images/herramientas.png"
+import "./QueHacemos.css";
 
 export const QueHacemos = () => {
 	return (<>

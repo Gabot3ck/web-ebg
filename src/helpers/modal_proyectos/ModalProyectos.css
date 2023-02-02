@@ -14,3 +14,9 @@
 .btn_modal{
     border: none;
 }
+.wrapper_images_modal{
+    width: 55%;
+}
+.wrapper_textos_modal{
+    width: 45%;
+}

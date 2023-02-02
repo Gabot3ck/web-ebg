@@ -19,12 +19,14 @@ export const ModalProyectos = ({ img, alt, titulo }) => {
                     </div>
                     <div className="modal-body pt-0 d-flex">
 
-                        <div className="wrapper_images_modal w-50">
+                        <div className="wrapper_images_modal ">
                             <img src={ img } alt={ alt } />
                         </div>
         
-                        <div className="wrapper_textos_modal w-50">
-                                <h3>{ titulo }</h3>
+                        <div className="wrapper_textos_modal   ps-5">
+                                <h3 className="text-start">{ titulo }</h3>
+                                <p>Id voluptate deserunt pariatur ut. Ullamco culpa voluptate laboris consequat ullamco ad velit magna ipsum pariatur do et esse adipisicing. Exercitation elit consequat pariatur cupidatat magna.</p>
+
                         </div>
                     </div>
                 </div>

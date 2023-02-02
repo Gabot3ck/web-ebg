@@ -12,9 +12,21 @@
 }
 
 .wrapper_queHacemos{
+    position: relative;
     padding: 7rem 0 3.5rem;
-    background-color: var(--color-fondo);
+    background: linear-gradient(to left, rgba(247, 246, 246, 0.93), rgba(250, 255, 251, 0.68)),
+                url(../../../../../public/images/planos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
+/* .wrapper_queHacemos .img_planos{
+    position: fixed;
+    top: 0;
+    z-index: -100;
+    
+} */
 .main_queHacemos{
     max-width: 1300px;
     display: grid;
