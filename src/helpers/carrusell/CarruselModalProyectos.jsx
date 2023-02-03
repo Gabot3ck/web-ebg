@@ -4,7 +4,7 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3, foto4 }) => {
     return (<>
         <section className="wrapper_carrusel_modal mx-auto">
 
-            <div id="carruselPoyectos" className="carousel slide carousel-fade w-100" data-bs-touch="true" data-bs-ride="false">
+            <div id={ foto1 } className="carousel slide carousel-fade w-100" data-bs-touch="true" data-bs-ride="false">
             
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -26,7 +26,7 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3, foto4 }) => {
                     <button 
                         href="slide0" 
                         className="" 
-                        data-bs-target="#carruselPoyectos"
+                        data-bs-target={`#${foto1}`}
                         data-bs-slide-to="0"
                         >
                         <img src={ foto1 } alt="" />
@@ -35,7 +35,7 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3, foto4 }) => {
                     <button 
                         href="slide1" 
                         className="active" 
-                        data-bs-target="#carruselPoyectos"
+                        data-bs-target={`#${foto1}`}
                         data-bs-slide-to="1"
                         aria-current="true"
                         >
@@ -45,7 +45,7 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3, foto4 }) => {
                     <button 
                         href="slide2" 
                         className="" 
-                        data-bs-target="#carruselPoyectos"
+                        data-bs-target={`#${foto1}`}
                         data-bs-slide-to="2"
                         >
                         <img src={ foto3 } alt="" />
@@ -54,7 +54,7 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3, foto4 }) => {
                     <button 
                         href="slide3" 
                         className="" 
-                        data-bs-target="#carruselPoyectos"
+                        data-bs-target={`#${foto1}`}
                         data-bs-slide-to="3"
                         >
                         <img src={ foto4 } alt="" />

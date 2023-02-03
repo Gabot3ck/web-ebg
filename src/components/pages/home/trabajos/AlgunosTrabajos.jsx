@@ -6,6 +6,14 @@ import foto1 from "../../../../assets/images/proyectos/la_reina/portada1_modal.j
 import foto2 from "../../../../assets/images/proyectos/la_reina/proceso1_modal.jpg";
 import foto3 from "../../../../assets/images/proyectos/la_reina/interior1_modal.jpg";
 import foto4 from "../../../../assets/images/proyectos/la_reina/portada2_modal.jpg";
+import enel1 from "../../../../assets/images/proyectos/edificio_enel/modal_portada_enel.jpg";
+import enel2 from "../../../../assets/images/proyectos/edificio_enel/modal_enel2.jpg";
+import enel3 from "../../../../assets/images/proyectos/edificio_enel/modal_enel3.jpg";
+import enel4 from "../../../../assets/images/proyectos/edificio_enel/modal_enel4.jpg";
+import dyno1 from "../../../../assets/images/proyectos/dyno/modal_dyno1.jpg";
+import dyno2 from "../../../../assets/images/proyectos/dyno/modal_dyno2.jpg";
+import dyno3 from "../../../../assets/images/proyectos/dyno/modal_dyno3.jpg";
+import dyno4 from "../../../../assets/images/proyectos/dyno/modal_dyno1.jpg";
 import { ModalProyectos } from "../../../../helpers/modal_proyectos/ModalProyectos";
 import "./AlgunosTrabajos.css";
 
@@ -47,6 +55,10 @@ export const AlgunosTrabajos = () => {
                         titulo="Oficinas de Edificio ENEL"
                         area="Carpintería"
                         lugar= "Dirección"
+                        foto1={ enel1 }
+                        foto2={ enel2 }
+                        foto3={ enel3 }
+                        foto4={ enel4 }
                         />
                 </section>
 
@@ -56,6 +68,10 @@ export const AlgunosTrabajos = () => {
                         titulo="Edificación de Containers"
                         area="Remodelaciones"
                         lugar= "Dirección"
+                        foto1={ dyno1 }
+                        foto2={ dyno2 }
+                        foto3={ dyno3 }
+                        foto4={ dyno4 }
                         />
                 </section>
 
