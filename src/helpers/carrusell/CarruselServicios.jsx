@@ -1,13 +1,12 @@
-
+import { useState } from "react";
+import { EnlacesCarrusel } from "./EnlacesCarrusel";
 import consultoria from "../../assets/images/carrusel_servicios/consultoria.jpg";
 import alcantarilla from "../../assets/images/carrusel_servicios/alcantarilla.jpg";
 import caminos from "../../assets/images/carrusel_servicios/caminos.jpg";
 import container from "../../assets/images/carrusel_servicios/container.jpg";
 import edificacion from "../../assets/images/carrusel_servicios/edificacion.jpg";
 import estructuras from "../../assets/images/carrusel_servicios/estructuras.jpg";
-import "./CarruselServicios.css";
-import { useState } from "react";
-import { EnlacesCarrusel } from "./EnlacesCarrusel";
+import "./Carrusel.css";
 
 
 const arrayId = [0, 1, 2, 3, 4, 5];

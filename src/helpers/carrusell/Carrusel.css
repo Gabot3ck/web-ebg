@@ -58,3 +58,13 @@
 .wrapper_carrusel_servicios .carousel-item .caption p{
     max-width: 80%;
 }
+
+
+
+/* Carrusel Modal de los Proyectos */
+.wrapper_carrusel_modal .container-carrusel-modal button{
+    border: none;
+}
+.wrapper_carrusel_modal .container-carrusel-modal img{
+    width: 20%;
+}

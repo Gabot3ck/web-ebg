@@ -1,4 +1,4 @@
-import "./CarruselServicios.css";
+import "./Carrusel.css";
 
 export const EnlacesCarrusel = ({  className, onClick, index }) => {
 

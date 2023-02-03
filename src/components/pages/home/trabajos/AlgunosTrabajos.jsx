@@ -2,6 +2,9 @@ import LaReina from "../../../../assets/images/proyecto_la_reina.jpeg";
 import Estructura from "../../../../assets/images/estructura.jpg";
 import Remodelaciones from "../../../../assets/images/remodelaciones.jpg";
 import Estructura2 from "../../../../assets/images/estructura2.jpg";
+import foto1 from "../../../../assets/images/proyectos/la_reina/portada2.jpg";
+import foto2 from "../../../../assets/images/proyectos/la_reina/portada.jpg";
+import foto3 from "../../../../assets/images/proyectos/la_reina/interior1.jpg";
 import { ModalProyectos } from "../../../../helpers/modal_proyectos/ModalProyectos";
 import "./AlgunosTrabajos.css";
 
@@ -20,6 +23,9 @@ export const AlgunosTrabajos = () => {
                         img={ LaReina } 
                         titulo="Caseta Municipal La Reina"
                         area="Remodelaciones"
+                        foto1={ foto1 }
+                        foto2={ foto2 }
+                        foto3={ foto3 }
                         />
                 </section>
 
