@@ -62,9 +62,11 @@
 
 
 /* Carrusel Modal de los Proyectos */
-.wrapper_carrusel_modal .container-carrusel-modal button{
+.wrapper_carrusel_modal .carrusel-modal-btns button{
     border: none;
 }
-.wrapper_carrusel_modal .container-carrusel-modal img{
-    width: 20%;
+
+.wrapper_carrusel_modal .carrusel-modal-btns img{
+    width: 60%;
+    border-radius: 3px;
 }

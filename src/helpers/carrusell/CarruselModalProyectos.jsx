@@ -1,6 +1,6 @@
 
 
-export const CarruselModalProyectos = ({ foto1, foto2, foto3 }) => {
+export const CarruselModalProyectos = ({ foto1, foto2, foto3, foto4 }) => {
     return (<>
         <section className="wrapper_carrusel_modal mx-auto">
 
@@ -16,26 +16,28 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3 }) => {
                     <div className="carousel-item">
                         <img src={foto3} className="d-block w-100" alt="..."/>
                     </div>
+                    <div className="carousel-item">
+                        <img src={foto4} className="d-block w-100" alt="..."/>
+                    </div>
                 </div>
 
-                <div className=" container-carrusel-modal py-3 d-flex justify-content-evenly w-100">
+                <div className=" carrusel-modal-btns py-3 d-flex justify-content-evenly w-100">
+                    
                     <button 
                         href="slide0" 
-                        className="active" 
-                        id="0"
+                        className="" 
                         data-bs-target="#carruselPoyectos"
                         data-bs-slide-to="0"
-                        aria-current="true"
                         >
                         <img src={ foto1 } alt="" />
                     </button>
-
+                    
                     <button 
                         href="slide1" 
-                        className="" 
-                        id="1"
+                        className="active" 
                         data-bs-target="#carruselPoyectos"
                         data-bs-slide-to="1"
+                        aria-current="true"
                         >
                         <img src={ foto2 } alt="" />
                     </button>
@@ -43,11 +45,19 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3 }) => {
                     <button 
                         href="slide2" 
                         className="" 
-                        id="2"
                         data-bs-target="#carruselPoyectos"
                         data-bs-slide-to="2"
                         >
                         <img src={ foto3 } alt="" />
+                    </button>
+
+                    <button 
+                        href="slide3" 
+                        className="" 
+                        data-bs-target="#carruselPoyectos"
+                        data-bs-slide-to="3"
+                        >
+                        <img src={ foto4 } alt="" />
                     </button>
                 </div>
             </div>

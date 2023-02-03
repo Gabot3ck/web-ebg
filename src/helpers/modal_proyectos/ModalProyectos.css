@@ -55,3 +55,6 @@
 .wrapper_textos_modal{
     width: 45%;
 }
+.modal_proyectos .modal-header{
+    border-bottom: 0;
+}

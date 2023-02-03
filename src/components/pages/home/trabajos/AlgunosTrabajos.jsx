@@ -1,10 +1,11 @@
-import LaReina from "../../../../assets/images/proyecto_la_reina.jpeg";
-import Estructura from "../../../../assets/images/estructura.jpg";
-import Remodelaciones from "../../../../assets/images/remodelaciones.jpg";
-import Estructura2 from "../../../../assets/images/estructura2.jpg";
-import foto1 from "../../../../assets/images/proyectos/la_reina/portada2.jpg";
-import foto2 from "../../../../assets/images/proyectos/la_reina/portada.jpg";
-import foto3 from "../../../../assets/images/proyectos/la_reina/interior1.jpg";
+import LaReina from "../../../../assets/images/proyectos/la_reina/portada1_card.jpg";
+import Taltal from "../../../../assets/images/proyectos/tal_tal/card_portada_taltal.jpg";
+import OficinaEnel from "../../../../assets/images/proyectos/edificio_enel/card_portada_enel.jpg";
+import Dyno from "../../../../assets/images/proyectos/dyno/card_portada_dyno.jpg";
+import foto1 from "../../../../assets/images/proyectos/la_reina/portada1_modal.jpg";
+import foto2 from "../../../../assets/images/proyectos/la_reina/proceso1_modal.jpg";
+import foto3 from "../../../../assets/images/proyectos/la_reina/interior1_modal.jpg";
+import foto4 from "../../../../assets/images/proyectos/la_reina/portada2_modal.jpg";
 import { ModalProyectos } from "../../../../helpers/modal_proyectos/ModalProyectos";
 import "./AlgunosTrabajos.css";
 
@@ -23,33 +24,38 @@ export const AlgunosTrabajos = () => {
                         img={ LaReina } 
                         titulo="Caseta Municipal La Reina"
                         area="Remodelaciones"
+                        lugar= "Comuna La Reina, Santiago RM."
                         foto1={ foto1 }
                         foto2={ foto2 }
                         foto3={ foto3 }
+                        foto4={ foto4 }
                         />
                 </section>
 
                 <section className="trabajos_card col-3 px-2">
                     <ModalProyectos 
-                        img={ Estructura } 
+                        img={ Taltal } 
                         titulo="Remodelación Tal Tal"
                         area="OOCC"
+                        lugar= "Dirección"
                         />
                 </section>
 
                 <section className="trabajos_card col-3 px-2">
                     <ModalProyectos 
-                        img={  Remodelaciones  } 
+                        img={  OficinaEnel  } 
                         titulo="Oficinas de Edificio ENEL"
                         area="Carpintería"
+                        lugar= "Dirección"
                         />
                 </section>
 
                 <section className="trabajos_card col-3 px-2">
                     <ModalProyectos 
-                        img={ Estructura2 } 
-                        titulo="Remodelaciones"
+                        img={ Dyno } 
+                        titulo="Edificación de Containers"
                         area="Remodelaciones"
+                        lugar= "Dirección"
                         />
                 </section>
 
