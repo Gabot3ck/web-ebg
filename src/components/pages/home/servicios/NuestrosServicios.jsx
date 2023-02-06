@@ -14,7 +14,8 @@ export const NuestrosServicios = () => {
                 <h2 className="text-center">Nuestros Servicios</h2>
                 <p className="text-center mx-auto">Nuestra empresa se rige por estándares internacionales que aseguran la compatibilidad con el medioambiente, y la seguridad de nuestros trabajadores, clientes y proveedores.</p>
             </div>
-
+            
+            
             <CarruselServicios />
 
         </section>

@@ -10,7 +10,7 @@ export const EnlacesCarrusel = ({  className, onClick, index }) => {
                 return icon;
                 }
             case 1:{
-                let icon = "fas fa-faucet";
+                let icon = "fa-solid fa-person-digging";
                 return icon;
             }
             case 2:{
@@ -40,7 +40,7 @@ export const EnlacesCarrusel = ({  className, onClick, index }) => {
         
         switch (id) {
             case 0:{
-                let icon = "CONSULTORÍA";
+                let icon = "ASESORÍA";
                 return icon;
                 }
             case 1:{

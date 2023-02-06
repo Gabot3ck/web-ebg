@@ -49,7 +49,7 @@ export const Nav = () => {
                                         <li><a className="dropdown-item" href="/">Obras Civiles</a></li>
                                         <li><a className="dropdown-item" href="/">Edificación y Remodelación</a></li>
                                         <li><a className="dropdown-item" href="/">Obras Industriales</a></li>
-                                        <li><a className="dropdown-item" href="/">Consultoría</a></li>
+                                        <li><a className="dropdown-item" href="/">Asesoría</a></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item px-lg-3">

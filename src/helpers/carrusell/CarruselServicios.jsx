@@ -43,7 +43,7 @@ export const CarruselServicios = () => {
                     <div className="carousel-item d-flex active ">
                         <img src= { consultoria } alt="..."/>
                         <div className="caption">
-                            <h3 className="titulo2 step-5">Consultoría</h3>
+                            <h3 className="titulo2 step-5">Asesoría</h3>
                             <p className="step-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, harum, sunt? Ipsam dolore ducimus commodi ut eaque nisi exercitationem amet laborum facere minima, magnam distinctio, inventore velit labore earum quidem!</p>
                             
                             <div className="btn btn-2">
