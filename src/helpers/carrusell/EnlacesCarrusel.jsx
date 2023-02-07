@@ -6,27 +6,19 @@ export const EnlacesCarrusel = ({  className, onClick, index }) => {
         
         switch (id) {
             case 0:{
-                let icon = "fas fa-paste";
+                let icon = "fa-solid fa-person-digging";
                 return icon;
                 }
             case 1:{
-                let icon = "fa-solid fa-person-digging";
-                return icon;
-            }
-            case 2:{
                 let icon = "far fa-building";
                 return icon;
             }
-            case 3:{
-                let icon = "fas fa-tools";
-                return icon;
-            }
-            case 4:{
-                let icon = "fas fa-bacon";
-                return icon;
-            }
-            case 5:{
+            case 2:{
                 let icon = "fas fa-warehouse";
+                return icon;
+            }
+            case 3:{
+                let icon = "fas fa-paste";
                 return icon;
             }
             default:{ 
@@ -40,27 +32,19 @@ export const EnlacesCarrusel = ({  className, onClick, index }) => {
         
         switch (id) {
             case 0:{
-                let icon = "ASESORÍA";
+                let icon = "OBRAS CIVILES";
                 return icon;
                 }
             case 1:{
-                let icon = "AGUA Y ALCANTARILLADO";
+                let icon = "EDIFICACIÓN Y REMODELACIÓN";
                 return icon;
             }
             case 2:{
-                let icon = "EDIFICACIÓN";
+                let icon = "OBRAS INDUSTRIALES";
                 return icon;
             }
             case 3:{
-                let icon = "ESTRUCTURAS METÁLICAS";
-                return icon;
-            }
-            case 4:{
-                let icon = "CAMINOS";
-                return icon;
-            }
-            case 5:{
-                let icon = "MÓDULOS DE CONTAINER";
+                let icon = "ASESORÍA";
                 return icon;
             }
             default:{ 
