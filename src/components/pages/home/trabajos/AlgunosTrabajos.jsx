@@ -14,6 +14,8 @@ import dyno1 from "../../../../assets/images/proyectos/dyno/modal_dyno1.jpg";
 import dyno2 from "../../../../assets/images/proyectos/dyno/modal_dyno2.jpg";
 import dyno3 from "../../../../assets/images/proyectos/dyno/modal_dyno3.jpg";
 import dyno4 from "../../../../assets/images/proyectos/dyno/modal_dyno1.jpg";
+import taltal1 from "../../../../assets/images/proyectos/tal_tal/portada_modal.jpg";
+import taltal2 from "../../../../assets/images/proyectos/tal_tal/portada2_modal.jpg";
 import { ModalProyectos } from "../../../../helpers/modal_proyectos/ModalProyectos";
 import "./AlgunosTrabajos.css";
 
@@ -46,6 +48,10 @@ export const AlgunosTrabajos = () => {
                         titulo="Remodelación Tal Tal"
                         area="OOCC"
                         lugar= "Dirección"
+                        foto1={ taltal1 }
+                        foto2={ taltal2 }
+                        foto3={ taltal1 }
+                        foto4={ taltal2 }
                         />
                 </section>
 
