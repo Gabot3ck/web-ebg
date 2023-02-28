@@ -6,9 +6,9 @@ import { AlgunosTrabajos } from "./trabajos/AlgunosTrabajos";
 import { PorQueNosotros } from "./por_que_nosotros/PorQueNosotros";
 import { NuestrosServicios } from "./servicios/NuestrosServicios";
 import { Clientes } from "./clientes/Clientes";
-import "./Home.css";
 import { Footer } from "../footer/Footer";
 import { BtnWhatsApp } from "../../../helpers/boton_whatsapp/BtnWhatsApp";
+import "./Home.css";
 
 
 export const Home = () => {

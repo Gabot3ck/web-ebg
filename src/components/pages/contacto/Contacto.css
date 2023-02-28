@@ -1,0 +1,65 @@
+*{
+    --color-principal: #65C400;
+    --color-secundario: #DDDEDC;
+    --color-principalGlass: #65c4005b;
+    --color-secundarioGlass: #dddedccc;
+    --color-texto: #383838;
+    --color-textoGlass: #383838a9;
+    --color-border: #dee2e6;
+    --color-placeholder: #b4b4b4;
+    --color-fondo: #f8f9fa;
+    --color-parrafos: #515e72;
+    --color-error: #f73b3b;
+}
+.container_contacto{
+    padding-top: 80px;
+    min-height: 100vh;
+    background-color: var(--color-fondo);
+}
+.wrapper_contacto{
+    width: clamp(300px, 90%, 1320px);
+}
+/* .contacto_formulario{
+    background-color: var(--color-fondo);
+} */
+.input{
+    border: 2px solid  var(--color-border);
+    background-color: transparent;
+}
+.input:focus, 
+.input:visited, 
+.input:active {
+    outline: none;
+    border-color: var(--color-principal);
+    background-color: transparent;
+    box-shadow: none;
+}
+.errorInput{
+    border: 2px solid   var(--color-error);
+    background-color: transparent;
+}
+.errorInput:focus, 
+.errorInput:visited, 
+.errorInput:active{
+    outline: none;
+    border-color:  var(--color-error);
+    background-color: transparent;
+    box-shadow: none;
+}
+.error{
+    color: var(--color-error);
+    font-size: .88rem;
+}
+.bloqueado{
+    cursor: not-allowed!important;
+}
+.contacto_formulario .btn-success{
+    border-color: var(--color-principal);
+    background-color: var(--color-principal);
+    transition: all .3s ease-in;
+}
+.contacto_formulario .btn-success:hover{
+    border-color: #1acf23;
+    background-color: #1acf23;
+    
+}
