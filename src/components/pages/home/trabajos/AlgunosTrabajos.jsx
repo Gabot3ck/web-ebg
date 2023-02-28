@@ -1,5 +1,5 @@
 import LaReina from "../../../../assets/images/proyectos/la_reina/portada1_card.jpg";
-import Taltal from "../../../../assets/images/proyectos/tal_tal/card_portada_taltal.jpg";
+import vitacura from "../../../../assets/images/proyectos/vitacura/portada1_card.jpg";
 import OficinaEnel from "../../../../assets/images/proyectos/edificio_enel/card_portada_enel.jpg";
 import Dyno from "../../../../assets/images/proyectos/dyno/card_portada_dyno.jpg";
 import foto1 from "../../../../assets/images/proyectos/la_reina/portada1_modal.jpg";
@@ -14,8 +14,10 @@ import dyno1 from "../../../../assets/images/proyectos/dyno/modal_dyno1.jpg";
 import dyno2 from "../../../../assets/images/proyectos/dyno/modal_dyno2.jpg";
 import dyno3 from "../../../../assets/images/proyectos/dyno/modal_dyno3.jpg";
 import dyno4 from "../../../../assets/images/proyectos/dyno/modal_dyno1.jpg";
-import taltal1 from "../../../../assets/images/proyectos/tal_tal/portada_modal.jpg";
-import taltal2 from "../../../../assets/images/proyectos/tal_tal/portada2_modal.jpg";
+import vitacura1 from "../../../../assets/images/proyectos/vitacura/portada1_modal.jpg";
+import vitacura2 from "../../../../assets/images/proyectos/vitacura/portada2_modal.jpg";
+import vitacura3 from "../../../../assets/images/proyectos/vitacura/portada3_modal.jpg";
+import vitacura4 from "../../../../assets/images/proyectos/vitacura/portada4_modal.jpg";
 import { ModalProyectos } from "../../../../helpers/modal_proyectos/ModalProyectos";
 import "./AlgunosTrabajos.css";
 
@@ -44,14 +46,14 @@ export const AlgunosTrabajos = () => {
 
                 <section className="trabajos_card col-3 px-2">
                     <ModalProyectos 
-                        img={ Taltal } 
-                        titulo="Remodelación Tal Tal"
+                        img={ vitacura } 
+                        titulo="Vitacura"
                         area="OOCC"
                         lugar= "Dirección"
-                        foto1={ taltal1 }
-                        foto2={ taltal2 }
-                        foto3={ taltal1 }
-                        foto4={ taltal2 }
+                        foto1={ vitacura1 }
+                        foto2={ vitacura2 }
+                        foto3={ vitacura3 }
+                        foto4={ vitacura4 }
                         />
                 </section>
 
