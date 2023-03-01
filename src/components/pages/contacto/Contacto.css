@@ -12,7 +12,6 @@
     --color-error: #f73b3b;
 }
 .container_contacto{
-    /* padding-top: 80px; */
     min-height: 100vh;
     background-color: var(--color-fondo);
 }
@@ -55,14 +54,13 @@
     cursor: not-allowed!important;
 }
 .contacto_formulario .btn-success{
-    border-color: var(--color-principal);
-    background-color: var(--color-principal);
+    border-color: var(--color-texto);
+    background-color: var(--color-texto);
     transition: all .3s ease-in;
 }
 .contacto_formulario .btn-success:hover{
     border-color: #1acf23;
     background-color: #1acf23;
-    
 }
 .fa-envelope,
 .fa-phone-alt,

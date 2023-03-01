@@ -8,10 +8,10 @@ import "./Contacto.css";
 
 export const Contacto = () => {
     return (<>
-        <div className="fondo_nav mb-4" >
+        <div className="fondo_nav" >
 
         </div>
-        <section className="container_contacto w-100 ">
+        <section className="container_contacto w-100 pt-4">
             <Nav/>
             <h1 className="mx-auto text-center mb-4" >Contáctenos</h1>
             <div className="wrapper_contacto d-flex gap-3 justify-content-between mx-auto py-3">

@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import emailjs from '@emailjs/browser';
 
 
 export const FormContacto = () => {
@@ -16,6 +18,7 @@ export const FormContacto = () => {
     const [errorAsunto, setErrorAsunto] = useState("");
     const [errorMensaje, setErrorMensaje] = useState("");
     const [btnDisable, setBtnDisable] = useState(true);
+
 
 
     const handleInput = (e, setState) => {
@@ -36,11 +39,13 @@ export const FormContacto = () => {
                 setErrorName("");
             }
         } else {
+            setBtnDisable(true);
             setActiveName(false);
             setErrorName("Debe ingresar su nombre y apellido");
         }
     }
 
+// Validando el input Email...
     function validateEmail(e) {
         const valueEmail = e.target.value.trim();
         const er = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -66,7 +71,9 @@ export const FormContacto = () => {
                 setErrorEmail("Debe ingresar un email válido");
         }
     }
-    
+
+
+// Validando los inputs textos
     const validateText = (e, setActive, setError) => {
         const value = e.target.value;
 
@@ -79,17 +86,35 @@ export const FormContacto = () => {
         }
     }
 
-    const onClick = () => {
-        console.log(name);
+
+//Mensaje de Toastify que envió el mensaje al correo
+    const toastify = () => {
+        toast("¡Mensaje enviado con éxito!",{
+            type: "success",
+            position: "top-center",
+            autoClose: 2500,
+            pauseOnHover: false,
+        })
     }
 
-    const handleSubmit = (e) => {
+
+//Enviando mensaje al correo contacto@ebgchile.cl con Emailjs
+    const handleSubmit = async (e) => {
         e.preventDefault();
+
+        emailjs.sendForm('service_website_ebg', 'template_sucdftv', e.target, 'OQL1F1RMUMihmP-q5' )
+        .then(response => console.log(response))
+        .catch(error => console.log(error));
+
+        setName("");
+        setEmail("");
+        setAsunto("");
+        setMensaje("");
     }
 
 
+// Validando si los inputs tienen valores para habilitar el btn del form
     useEffect(() => {
-
         const handleDOMLoaded = () => setBtnDisable(true)
 
         if((activeName === false) || (activeAsunto === false) || (activeEmail === false) || (activeMensaje === false)) {
@@ -103,13 +128,20 @@ export const FormContacto = () => {
     }, [name, asunto, email, mensaje, activeName, activeAsunto, activeEmail, activeMensaje]);
 
 
+//Deshabilitar el btn cuando el input name está vacío
+    useEffect(() => {
+        name === "" && setBtnDisable(true);
+    },  [name])
+    
+
 
     return (<>
         <form
             className="needs-validation w-100 mt-3 pt-1 pb-3 d-flex flex-column gap-4 align-items-center contacto_formulario"
             autoComplete="off"
             id="formContacto"
-            onSubmit={ handleSubmit }>
+            onSubmit={ handleSubmit }
+            >
 
             <div className="w-75">
                 <label className="form-label">Nombre y apellido:</label>
@@ -117,7 +149,7 @@ export const FormContacto = () => {
                     className={ `form-control-sm w-100 ${ errorName !== "" ? "errorInput" : "input" } ` }
                     type="text" 
                     placeholder="Ejm: Juan Reyes"
-                    name=""
+                    name="contacto_nombre"
                     value={ name }
                     onChange={ (e) => handleInput(e, setName) }
                     onBlur={ validateName }/>
@@ -133,7 +165,7 @@ export const FormContacto = () => {
                     className={ `form-control-sm w-100 ${ errorEmail !== "" ? "errorInput" : "input" } ` }
                     type="email" 
                     placeholder="Ejm: usuario@correo.com"
-                    name=""
+                    name="contacto_email"
                     value={ email }
                     onChange={ (e) => handleInput(e, setEmail) }
                     onBlur={ validateEmail }/>
@@ -148,7 +180,7 @@ export const FormContacto = () => {
                     className={ `form-control-sm w-100 ${ errorAsunto !== "" ? "errorInput" : "input" } ` }
                     type="text" 
                     placeholder="Ejm: Cotización"
-                    name=""
+                    name="contacto_asunto"
                     value={ asunto }
                     onChange={ (e) => handleInput(e, setAsunto) }
                     onBlur={ (e) => validateText(e, setActiveAsunto, setErrorAsunto) }/>
@@ -163,7 +195,7 @@ export const FormContacto = () => {
                     className={ `form-control-sm w-100 ${ errorMensaje !== "" ? "errorInput" : "input" } ` }
                     type="text-area" 
                     placeholder="Escriba su mensaje aquí..."
-                    name=""
+                    name="contacto_mensaje"
                     value={ mensaje }
                     onChange={ (e) => handleInput(e, setMensaje) }
                     onBlur={ (e) => validateText(e, setActiveMensaje, setErrorMensaje) }
@@ -173,14 +205,16 @@ export const FormContacto = () => {
                 </span>
             </div>
 
+
             <div className={`w-25 ${ btnDisable ? "bloqueado" : "" }`}>
                 <button 
                     className={ `btn btn-success mx-auto d-block ` }
-                    onClick={ onClick }
-                    disabled= { btnDisable }>
+                    disabled= { btnDisable }
+                    onClick={ toastify }>
                     Enviar
                 </button>
             </div>
+            <ToastContainer />
         </form>
     </>)
 }
