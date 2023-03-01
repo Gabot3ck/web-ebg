@@ -12,16 +12,17 @@
     --color-error: #f73b3b;
 }
 .container_contacto{
-    padding-top: 80px;
+    /* padding-top: 80px; */
     min-height: 100vh;
     background-color: var(--color-fondo);
+}
+.fondo_nav{
+    height: 60px;
+    background-color: var(--color-texto);
 }
 .wrapper_contacto{
     width: clamp(300px, 90%, 1320px);
 }
-/* .contacto_formulario{
-    background-color: var(--color-fondo);
-} */
 .input{
     border: 2px solid  var(--color-border);
     background-color: transparent;
@@ -62,4 +63,15 @@
     border-color: #1acf23;
     background-color: #1acf23;
     
+}
+.fa-envelope,
+.fa-phone-alt,
+.fa-globe,
+.fa-map-marker-alt{
+    color: var(--color-principal);
+}
+.wrapper_mapa{
+    height: 350px;
+    box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+				-8px -8px 16px rgba(255, 255, 255, 0.8);
 }
