@@ -46,7 +46,7 @@ export const Nav = () => {
                                     Servicios
                                     </a>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="/">Obras Civiles</a></li>
+                                        <Link className="dropdown-item" to="/oocc">Obras Civiles</Link>
                                         <li><a className="dropdown-item" href="/">Edificación y Remodelación</a></li>
                                         <li><a className="dropdown-item" href="/">Obras Industriales</a></li>
                                         <li><a className="dropdown-item" href="/">Asesoría</a></li>

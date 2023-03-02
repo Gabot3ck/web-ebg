@@ -1,0 +1,35 @@
+*{
+    --color-principal: #65C400;
+    --color-secundario: #DDDEDC;
+    --color-principalGlass: #65c4005b;
+    --color-secundarioGlass: #dddedccc;
+    --color-texto: #383838;
+    --color-textoGlass: #383838a9;
+    --color-border: #dee2e6;
+    --color-placeholder: #b4b4b4;
+    --color-fondo: #f8f9fa;
+    --color-parrafos: #515e72;
+}
+.oocc{
+    height: 100%;
+    min-height: 100vh;
+    background: #383838;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.80), rgba(0,0,0,.92)), url('../../../../assets/images/servicios/fondo_servicios.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper_oocc{
+    min-height: 80vh;
+    width: clamp(300px, 90%, 1320px);
+    background: #383838;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.60), rgba(0,0,0,0.78)), url('../../../../assets/images/servicios/fondo_servicios.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper_fotos{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    height: 330px;
+}
