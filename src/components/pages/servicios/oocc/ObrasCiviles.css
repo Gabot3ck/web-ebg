@@ -18,15 +18,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    
 }
 .wrapper_oocc{
     min-height: 80vh;
     width: clamp(300px, 90%, 1320px);
     background: #383838;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.60), rgba(0,0,0,0.78)), url('../../../../assets/images/servicios/fondo_servicios.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.60), rgba(0,0,0,0.82)), url('../../../../assets/images/servicios/fondo_servicios.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 .wrapper_fotos{
     padding-left: 6rem;

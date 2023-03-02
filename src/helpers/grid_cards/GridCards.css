@@ -11,6 +11,31 @@
     --color-parrafos: #515e72;
 }
 .grid_cards_container  div{
+    position: relative;
     border-radius: 10px;
+    color: transparent;
     overflow: hidden;
 }
+.grid_cards_container  div:hover,
+.grid_cards_container  div p:hover{
+    color: #5ce08f
+}
+.grid_cards_container  .wrapper_img{
+    opacity: 1;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+.grid_cards_container  .wrapper_img:hover img{
+    opacity: 0.6;
+    filter: blur(4px);
+    cursor: pointer;
+}
+.grid_cards_container  div p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 300;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
