@@ -20,7 +20,8 @@
 .grid_cards_container  .wrapper:hover,
 .grid_cards_container  .wrapper_child:hover,
 .grid_cards_container  .wrapper span:hover{
-    color: #5ce08f;
+    /* color: #5ce08f; */
+    color: var(--color-principal);
     cursor: pointer
 }
 .grid_cards_container  .wrapper_img{
@@ -28,7 +29,7 @@
     transition: filter 0.3s ease, opacity 0.3s ease;
 }
 .grid_cards_container  .wrapper_img:hover img{
-    opacity: 0.6;
+    opacity: 0.55;
     filter: blur(4px);
     cursor: pointer;
 }

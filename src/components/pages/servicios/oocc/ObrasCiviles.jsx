@@ -7,7 +7,7 @@ import electrico1 from "../../../../assets/images/servicios/obras_electricas1.jp
 import electrico2 from "../../../../assets/images/servicios/obras_electricas2.jpg";
 import sanitarias1 from "../../../../assets/images/servicios/obras_sanitarias1.jpg";
 import sanitarias2 from "../../../../assets/images/servicios/obras_sanitarias2.jpg";
-
+import 'animate.css';
 import "./ObrasCiviles.css";
 
 
@@ -19,8 +19,9 @@ export const ObrasCiviles = () => {
         <Nav/>
         <section className="oocc w-100 d-flex justify-content-center align-items-center" >
 
-            <div className="wrapper_oocc py-5 d-flex align-items-end">
-                <div className="wrapper_fotos w-100  py-1 d-flex ">
+            <div className="wrapper_oocc py-5 d-flex align-items-center justify-content-center gap-3 flex-column">
+                <h1 className="titulo px-5 fs-3 ">Obras Civiles</h1>
+                <div className="wrapper_fotos w-100  py-1 d-flex animate__animated animate__backInUp">
                     <GridCards 
                         row="flex-row"
                         img1={ viales1 }
