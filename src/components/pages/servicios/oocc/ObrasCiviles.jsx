@@ -29,6 +29,9 @@ export const ObrasCiviles = () => {
                         alt2="Obra Sanitarias"
                         img3={ viales2 }
                         alt3="Obras Viales"
+                        link1="obras_viales"
+                        link2="obras_sanitarias"
+                        link3="obras_viales"
                         />
                     <GridCards 
                         row="flex-row-reverse" 
@@ -37,7 +40,10 @@ export const ObrasCiviles = () => {
                         img2={ sanitarias1 }
                         alt2="Obras Sanitarias"
                         img3={ electrico2 }
-                        alt3="Obras Sanitarias"
+                        alt3="Obras Eléctricas"
+                        link1="obras_electricas"
+                        link2="obras_sanitarias"
+                        link3="obras_electricas"
                         />
                 </div>
             </div>
