@@ -25,12 +25,11 @@
     cursor: pointer
 }
 .grid_cards_container  .wrapper_img{
-    opacity: 1;
-    transition: filter 0.3s ease, opacity 0.3s ease;
+    filter: brightness(90%);
+    transition: all 2s ease ;
 }
 .grid_cards_container  .wrapper_img:hover img{
-    opacity: 0.55;
-    filter: blur(4px);
+    filter: brightness(40%) blur(4px);
     cursor: pointer;
 }
 .grid_cards_container  .wrapper span{
