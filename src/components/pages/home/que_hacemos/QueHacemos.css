@@ -21,12 +21,6 @@
     background-position: center center;
     background-attachment: fixed;
 }
-/* .wrapper_queHacemos .img_planos{
-    position: fixed;
-    top: 0;
-    z-index: -100;
-    
-} */
 .main_queHacemos{
     max-width: 1300px;
     display: grid;
@@ -49,7 +43,7 @@
     
 }
 .main_queHacemos_texto p{
-    width: clamp(300px, 90%, 480px);
+    width: clamp(300px, 98%, 530px);
     font-weight: 500;
     color: var(--color-parrafos);
     font-size: 1.15rem;
