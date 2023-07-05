@@ -5,8 +5,10 @@ export const PorQueNosotros = () => {
     return (<>
         <section className="w-100 wrapper_porque_nosotros py-5">
             <div className="porque_nosotros_texto mx-auto">
-                <h2 className="text-center">Por Qué Nosotros</h2>
-                <p className="text-center mx-auto">Nuestra empresa se rige por estándares internacionales que aseguran la compatibilidad con el medioambiente, y la seguridad de nuestros trabajadores, clientes y proveedores.</p>
+                <h2 className="text-center">¿Por Qué Nosotros?</h2>
+                <p className="text-center mx-auto">
+                Destacamos por nuestra sólida cultura de seguridad laboral y sostenibilidad en todos los niveles. Nos enorgullece trabajar con colaboradores, clientes y proveedores comprometidos con valores similares.
+                </p>
             </div>
 
             <div className="container">
@@ -14,25 +16,25 @@ export const PorQueNosotros = () => {
                     <CardStandares 
                         icono="fa-globe-americas"
                         titulo="Medio Ambiente"
-                        texto="Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ducimus at iure accusamus neque molestias dicta! Repudiandae."
+                        texto="Comprometidos a proteger el medio ambiente y a reducir la huella de carbono, así construimos un futuro más verde."
                     />
 
                     <CardStandares 
                         icono="fa-users"
                         titulo="Comunidad"
-                        texto="Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ducimus at iure accusamus neque molestias dicta! Repudiandae."
+                        texto="Nos involucramos activamente en iniciativas comunitarias y promovemos una cadena de suministro ética y segura."
                     />
 
                     <CardStandares 
                         icono="fa-hard-hat"
                         titulo="Seguridad"
-                        texto="Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ducimus at iure accusamus neque molestias dicta! Repudiandae."
+                        texto="La seguridad es nuestra prioridad absoluta, implementamos rigurosas medidas y prácticas para salvaguardar a nuestros equipos, clientes y proveedores."
                     />
 
                     <CardStandares 
                         icono="fa-award"
                         titulo="Valores"
-                        texto="Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ducimus at iure accusamus neque molestias dicta! Repudiandae."
+                        texto='Actuamos con honestidad, ética y transparencia en todas nuestras operaciones, bajo el lema: "Uniendo Valores, Construimos Futuro".'
                     />
                 </div>
             </div>
