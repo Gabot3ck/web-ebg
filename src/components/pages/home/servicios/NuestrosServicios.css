@@ -19,7 +19,7 @@
     text-transform: uppercase;
 }
 .nuestros_servicios_texto p{
-    width: clamp(300px, 80%, 1320px);
+    width: clamp(300px, 90%, 1320px);
     color: var(--color-parrafos);
     font-weight: 500;
     font-size: 1.15rem;
