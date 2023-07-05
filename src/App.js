@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home } from './components/pages/home/Home';
 import { Nosotros } from './components/pages/nosotros/Nosotros';
 import { Proyectos } from './components/pages/proyectos/Proyectos';
-import { Contacto } from './components/pages/contacto/Contacto';
+import { ContactoPage } from './components/pages/contacto/ContactoPage';
 import { ObrasCiviles } from './components/pages/servicios/oocc/ObrasCiviles';
 import { ObrasViales } from './components/pages/servicios/oocc/ObrasViales';
 import { ObrasSanitarias } from './components/pages/servicios/oocc/ObrasSanitarias';
@@ -20,7 +20,7 @@ function App() {
         <Route index element={ <Home/> } />
         <Route path="/nosotros" element={ <Nosotros/> } />
         <Route path="/proyectos" element={ <Proyectos/> } />
-        <Route path="/contacto" element={ <Contacto/> } />
+        <Route path="/contacto" element={ <ContactoPage/> } />
         <Route path='/oocc' element={ <ObrasCiviles/> } />
         <Route path='/oocc/obras_viales' element={ <ObrasViales/> } />
         <Route path='oocc/obras_electricas' element={ <ObrasElectricas/> } />
