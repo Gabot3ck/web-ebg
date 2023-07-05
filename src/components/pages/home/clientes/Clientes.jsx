@@ -7,7 +7,7 @@ import "./Clientes.css";
 
 export const Clientes = () => {
     return (<>
-        <section className="wrapper_clientes w-100">
+        <section className="wrapper_clientes w-100 mb-5">
             <div className="clientes_texto mx-auto mb-4">
                 <h2 className="text-center">Nuestros Clientes</h2>
             </div>
