@@ -26,7 +26,9 @@ export const AlgunosTrabajos = () => {
         <section className="w-100 wrapper_trabajos mb-5 ">
             <div className="trabajos_texto mx-auto">
                 <h2 className="text-center ">Algunos trabajos</h2>
-                <p className="text-center mx-auto">Nuestra empresa se rige por estándares internacionales que aseguran la compatibilidad con el medioambiente, y la seguridad de nuestros trabajadores, clientes y proveedores.</p>
+                <p className="text-center mx-auto">
+                    De la remodelación de espacios urbanos a la construcción de infraestructuras vitales, nuestros proyectos demuestran nuestro compromiso con la calidad, la innovación y la entrega de resultados excepcionales.
+                </p>
             </div>
             
             <main className="wrapper_trabajos_card d-flex px-2">
@@ -35,7 +37,7 @@ export const AlgunosTrabajos = () => {
                     <ModalProyectos 
                         img={ LaReina } 
                         titulo="Caseta Municipal La Reina"
-                        area="Remodelaciones"
+                        area="Edificación"
                         lugar= "Comuna La Reina, Santiago RM."
                         foto1={ foto1 }
                         foto2={ foto2 }
@@ -61,7 +63,7 @@ export const AlgunosTrabajos = () => {
                     <ModalProyectos 
                         img={  OficinaEnel  } 
                         titulo="Oficinas de Edificio ENEL"
-                        area="Carpintería"
+                        area="Remodelaciones"
                         lugar= "Dirección"
                         foto1={ enel1 }
                         foto2={ enel2 }
@@ -74,7 +76,7 @@ export const AlgunosTrabajos = () => {
                     <ModalProyectos 
                         img={ Dyno } 
                         titulo="Edificación de Containers"
-                        area="Remodelaciones"
+                        area="Estructuras"
                         lugar= "Dirección"
                         foto1={ dyno1 }
                         foto2={ dyno2 }
