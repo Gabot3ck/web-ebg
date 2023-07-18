@@ -36,10 +36,10 @@ export const Nav = () => {
                         <div className="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/" className={`nav-link ${window.location.pathname === "/" ? "active" : ""} ${color && "bg_nav_a"}`}>Inicio</Link>
+                                    <Link to="/" className={`nav-link ${window.location.pathname === "/" ? "activado" : ""} ${color && "bg_nav_a"}`}>Inicio</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/nosotros" className={`nav-link ${window.location.pathname === "/nosotros" ? "active" : ""} ${color && "bg_nav_a"}`}>Nosotros</Link>
+                                    <Link to="/nosotros" className={`nav-link ${window.location.pathname === "/nosotros" ? "activado" : ""} ${color && "bg_nav_a"}`}>Nosotros</Link>
                                 </li>
                                 <li className="nav-item dropdown px-lg-3">
                                     <a className= {`nav-link dropdown-toggle ${color && "bg_nav_a"}`} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,10 +53,10 @@ export const Nav = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/proyectos" className={`nav-link ${window.location.pathname === "/proyectos" ? "active" : ""} ${color && "bg_nav_a"}`}>Proyectos</Link>
+                                    <Link to="/proyectos" className={`nav-link ${window.location.pathname === "/proyectos" ? "activado" : ""} ${color && "bg_nav_a"}`}>Proyectos</Link>
                                 </li>
                                 <li className="nav-item px-lg-3">
-                                    <Link to="/contacto" className={`nav-link ${window.location.pathname === "/contacto" ? "active" : ""} ${color && "bg_nav_a"}`}>Contacto</Link>
+                                    <Link to="/contacto" className={`nav-link ${window.location.pathname === "/contacto" ? "activado" : ""} ${color && "bg_nav_a"}`}>Contacto</Link>
                                 </li>
                             </ul>
                         </div>

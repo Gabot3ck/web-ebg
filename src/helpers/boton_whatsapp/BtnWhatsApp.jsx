@@ -4,7 +4,7 @@ export const BtnWhatsApp = () => {
     return (<>
         <div className="btn-whatsapp">
             <a 
-                href="https://api.whatsapp.com/send?phone=+56993321198&text= Estimados EBG, nececito que me puedan audar con:" 
+                href="https://api.whatsapp.com/send?phone=+56920509410&text= Estimados EBG, nececito que me puedan ayudar con:" 
                 target="_blank" 
                 rel="noopener noreferrer">
                     <i className="bi bi-whatsapp"></i>

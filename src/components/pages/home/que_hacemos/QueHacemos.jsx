@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import imgHerramientas from "../../../../assets/images/herramientas.png"
+import imagen from "../../../../assets/images/serviciosEBG.jpg"
 import "./QueHacemos.css";
 
 export const QueHacemos = () => {
@@ -15,7 +15,7 @@ export const QueHacemos = () => {
 					<Link to={'/contacto'} className="btn btn-success mt-4">Contactar</Link>
 				</section>
 				<div className="main_queHacemos_img  d-flex justify-content-center">
-					<img src={ imgHerramientas } alt="Herramientas usadas en la remodelaciones de EBG Chile" />
+					<img src={ imagen } alt="Herramientas usadas en la remodelaciones de EBG Chile" height={350} />
 				</div>
 				
 			</main>

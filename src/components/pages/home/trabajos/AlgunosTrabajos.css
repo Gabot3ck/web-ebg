@@ -9,6 +9,7 @@
     --color-placeholder: #b4b4b4;
     --color-fondo: #f8f9fa;
     --color-parrafos: #515e72;
+    --color-green: #247a38;
 }
 .wrapper_trabajos{
     padding: 3rem 0;
@@ -36,4 +37,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.indicadores{
+    color: var(--color-green);
 }

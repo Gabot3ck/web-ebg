@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { EnlacesCarrusel } from "./EnlacesCarrusel";
 import consultoria from "../../assets/images/carrusel_servicios/consultoria.jpg";
-import alcantarilla from "../../assets/images/carrusel_servicios/alcantarilla.jpg";
-import container from "../../assets/images/carrusel_servicios/container.jpg";
-import edificacion from "../../assets/images/carrusel_servicios/edificacion.jpg";
+import obrasCiviles from "../../assets/images/carrusel_servicios/obras-civiles.jpg";
+import container from "../../assets/images/carrusel_servicios/industrial.jpg";
+import remodelacion from "../../assets/images/carrusel_servicios/remodelacion.jpg";
 import "./Carrusel.css";
+import { LinkPrimary } from "../../components/buttons/LinkPrimary";
+
 
 
 const arrayId = [0, 1, 2, 3];
@@ -39,36 +42,61 @@ export const CarruselServicios = () => {
                 <div className="carousel-inner w-100">
                     
                     <div className="carousel-item d-flex active ">
-                        <img src= { alcantarilla } alt="..."/>
-                        <div className="caption">
+                        <img src= { obrasCiviles } alt="Trabajos de Obras Civiles en EBG"/>
+                        <div className="caption texto-servicios">
                             <h3 className="titulo2 step-5">Obras Civiles</h3>
-                            <p className="step-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, harum, sunt? Ipsam dolore ducimus commodi ut eaque nisi exercitationem amet laborum facere minima, magnam distinctio, inventore velit labore earum quidem!</p>
+                            <p className="step-3">
+                            Con sólida trayectoria en <strong>obras civiles</strong> , ofrecemos soluciones confiables y de calidad que transforman espacios, superando expectativas en cada proyecto. Descubre cómo nuestra experiencia puede impulsar tu éxito en la industria de la construcción, siendo nuestras especialidades:
+
+                                <li className="mt-3" >Obras Civiles Eléctricas</li>
+                                <li>Obras Civiles Urbanas</li>
+                                <li>Obras Civiles Sanitarias</li>
+                                <li>Obras Civiles Industriales</li>
+                            </p>
                             
-                            <div className="btn btn-2">
-                                <a className="btn btn-danger" href="/"><span>+</span> Leer más </a>
-                            </div>
+                            <LinkPrimary 
+                                link='/oocc'
+                                title='Leer más'
+                            />
                         </div>
                     </div>
                     
                     <div className="carousel-item d-flex">
-                        <img src= { edificacion  } alt="..."/>
-                        <div className="caption ">
+                        <img src= { remodelacion  } alt="Trabajo de remodelaciones interiores de oficina en EBG Chile"/>
+                        <div className="caption texto-servicios">
                             <h3 className="titulo2 step-5">Edificación Y Remodelación</h3>
-                            <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo cum perspiciatis totam nemo fugiat dolorem impedit, consectetur soluta nulla aliquam libero maiores dolore, at necessitatibus, facere repudiandae molestias accusamus sit.</p>
-                            <div className="btn btn-2">
-                                <a className="btn btn-danger" href="/"><span>+</span> Leer más</a>
-                            </div>
+                            <p className="step-3">
+                                En el ámbito de edificaión y remodelaciones, somos líderes en brindar soluciones innovadoras y personalizadas. Nuestra experiencia en ingeniería y construcción se combina con una visión estética, te ayudaremos a renovar tus espacios para impulsar la productividad y reflejar la identidad de tu empresa. 
+                                <br /><br />
+                                Nuestras especialidedades son:
+                                <li className="mt-3" >Construcciones habitacionales</li>
+                                <li>Remodelaciones</li>
+                                <li>Restauraciones</li>
+                                <li>Habilitación de oficinas</li>
+                            </p>
+                            <LinkPrimary 
+                                link='/remodelaciones'
+                                title='Leer más'
+                            />
                         </div>
                     </div>
                     
                     <div className="carousel-item d-flex">
                         <img src= { container  }  alt="..."/>
-                        <div className="caption ">
+                        <div className="caption texto-servicios">
                             <h3 className="titulo2 step-5">Obras Industriales</h3>
-                            <p className="">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Fugiat ex magnam architecto reprehenderit ipsum. Dolor et molestias consequatur, cumque dolore, quibusdam cupiditate sunt inventore rerum! Amet, temporibus. Possimus, temporibus, sapiente!</p>
-                            <div className="btn btn-2">
-                                <a className="btn btn-danger" href="/"><span>+</span> Leer más</a>
-                            </div>
+                            <p className="">
+                                En la construcción de obras industriales, somos líderes en innovación y eficiencia. Nuestra experiencia en ingeniería y construcción se combina para crear estructuras robustas y versátiles, adaptadas a tus necesidades específicas. Confía en nosotros para edificar soluciones sólidas y vanguardistas
+                                <br /><br />
+                                Nuestras especialidedades son:
+                                <li className="mt-3" >Obras de estructuras metálicas</li>
+                                <li>Obras de estructuras modulares</li>
+                                <li>Construcción de galpones</li>
+                            </p>
+                            <LinkPrimary 
+                                link='/obras-industriales'
+                                title='Leer más'
+                            />
                         </div>
                     </div>
                     
@@ -76,10 +104,15 @@ export const CarruselServicios = () => {
                         <img src= { consultoria}  alt="..."/>
                         <div className="caption">
                             <h3 className="titulo2 step-5">Asesoría</h3>
-                            <p className="">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Esse recusandae maxime necessitatibus rem asperiores enim, unde similique expedita hic, eligendi voluptas, cumque eaque error corrupti numquam culpa eos quaerat consequatur!.</p>
-                            <div className="btn btn-2">
-                                <a className="btn btn-danger" href="/"><span>+</span> Leer más</a>
-                            </div>
+                            <p className="">
+                            Potencia el éxito de tus proyectos con nuestro respaldo experto para el éxito de tus iniciativas. Nuestro equipo de expertos en ingeniería y construcción te guiará en cada etapa, aportando conocimientos estratégicos y soluciones personalizadas. 
+                            <br /><br />
+                            Confía en nosotros para llevar tus proyectos al siguiente nivel.
+                            </p>
+                            <LinkPrimary 
+                                link='/asesoria'
+                                title='Leer más'
+                            />
                         </div>
                     </div>
                     

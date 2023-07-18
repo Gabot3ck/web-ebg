@@ -1,0 +1,42 @@
+*{
+  --color-principal: #65C400;
+  --color-secundario: #DDDEDC;
+  --color-principalGlass: #65c4005b;
+  --color-secundarioGlass: #dddedccc;
+  --color-texto: #383838;
+  --color-textoGlass: #383838a9;
+  --color-border: #dee2e6;
+  --color-placeholder: #b4b4b4;
+  --color-fondo: #f8f9fa;
+  --color-parrafos: #515e72;
+  --color-green: #247a38;
+}
+.linkPrimary{
+  width: 140px;
+  height: 40px;
+  border: 2px solid white;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  transition: all .3s ease-in;
+}
+.linkPrimary:hover{
+  border: none;
+  color: #383838;
+  font-weight: 500;
+  background-color: var(--color-fondo);
+}
+.linkSecondary{
+  width: 150px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 500;
+  color: white;
+  background-color: var(--color-green);
+  transition: all .3s ease-in;
+}

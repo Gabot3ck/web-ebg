@@ -1,15 +1,32 @@
+import { LinkSecondary } from "../../components/buttons/LinkSecondary";
 import { CarruselModalProyectos } from "../carrusell/CarruselModalProyectos";
 import "./ModalProyectos.css";
 
 
 
 
-export const ModalProyectos = ({ img, alt, titulo, area, lugar, foto1, foto2, foto3, foto4 }) => {
+export const ModalProyectos = ({ 
+    children,
+    img, 
+    alt, 
+    tituloCard,
+    titulo,
+    area, 
+    lugar, 
+    foto1, 
+    foto2, 
+    foto3, 
+    foto4,
+    link,
+    title}) => {
+
+
+
     return (<>
         
         <button type="button" className="btn_modal px-0 rounded " data-bs-toggle="modal" data-bs-target={`#${img}`}>
             <img src={ img } alt={ alt } className="rounded-top" />
-            <h3 className="fs-5 text-center">{ titulo }</h3>
+            <h3 className="fs-5 text-center">{ tituloCard }</h3>
             <p>{area}</p>
         </button>
 
@@ -34,15 +51,18 @@ export const ModalProyectos = ({ img, alt, titulo, area, lugar, foto1, foto2, fo
                         </div>
         
                         <div className="wrapper_textos_modal   ps-5">
-                            <div className="testos_modal_subtitulo d-flex gap-2 mb-2">
+                            <div className="textos_modal d-flex gap-2 mb-2">
                                 <i className="bi bi-geo-alt-fill"></i>
-                                <p>{ lugar }</p>
+                                <p className="m-0">{ lugar }</p>
                             </div>
-                            <h3 className="text-start">{ titulo }</h3>
-                            <p>Id voluptate deserunt pariatur ut. Ullamco culpa voluptate laboris consequat ullamco ad velit magna ipsum pariatur do et esse adipisicing. Exercitation elit consequat pariatur cupidatat magna.</p>
-                            <button className="btn btn-success mt-5">
-                                Más detalles
-                            </button>
+                            <h3 className="text-start my-3 titulo_modal ">{ titulo }</h3>
+                            <section className="textos_modal mb-5" >
+                                { children }
+                            </section>
+                            <LinkSecondary 
+                                link='/'
+                                title='más detalles'
+                            />
                         </div>
                     </div>
                 </div>
