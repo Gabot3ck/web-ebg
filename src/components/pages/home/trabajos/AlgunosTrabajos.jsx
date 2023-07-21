@@ -30,7 +30,7 @@ export const AlgunosTrabajos = () => {
     return (<>
         <section className="w-100 wrapper_trabajos mb-5 ">
             <div className="trabajos_texto mx-auto">
-                <h2 className="text-center ">Algunos trabajos</h2>
+                <h2 className="text-center ">Algunos proyectos</h2>
                 <p className="text-center mx-auto">
                     De la remodelación de espacios urbanos a la construcción de infraestructuras vitales, nuestros proyectos demuestran nuestro compromiso con la calidad, la innovación y la entrega de resultados excepcionales.
                 </p>
@@ -44,12 +44,33 @@ export const AlgunosTrabajos = () => {
                         tituloCard="Caseta Municipal La Reina"
                         titulo="Caseta Municipal"
                         area="Edificación"
-                        lugar= "Comuna La Reina, Santiago RM."
+                        lugar= "Av. Sánchez Fontecilla esquina Eliecer Parada, La Reina, Santiago RM."
                         foto1={ foto1 }
                         foto2={ foto2 }
                         foto3={ foto3 }
                         foto4={ foto4 }
-                    />
+                    >
+                        {<>
+                            <p className="mb-3" >Construcción del  "Centro de Seguridad Comunitaria Unidad Vecinal N°1" en la comuna de La Reina.</p>
+                            <p className="mb-2">
+                                <MdCalendarMonth className="" />
+                                <span className="fw-semibold " > Fecha de inicio: </span>10 diciembre 2022.
+                            </p>
+                            <p className="mb-2">
+                                <MdCalendarMonth className="" />
+                                <span className="fw-semibold " > Fecha de término: </span>25 junio 2023.
+                            </p>
+                            <p className="mb-2">
+                                <GoContainer className="" />
+                                <span className="fw-semibold "> m<sup>2</sup>: </span>  100  m<sup>2.</sup>
+                            </p>
+                            <p className="mb-2">
+                                <IoConstruct className="" />
+                                <span className="fw-semibold " > Actividades:</span> Mejoramiento de suelo, fundaciones, carpintería metálica, ventanas termopanel, tabiquería,
+                                piso fotolaminado. Instalaciones eléctricas, sanitarias, climatización. Revestimiento exterior, terraza, pintura, gráficas y paisajismo.
+                            </p>
+                        </>}
+                    </ModalProyectos>
                 </section>
 
                 <section className="trabajos_card col-3 px-2">
@@ -94,7 +115,9 @@ export const AlgunosTrabajos = () => {
                             </p>
                             <p className="mb-2">
                                 <IoConstruct className="" />
-                                <span className="fw-semibold " > Actividades:</span> 
+                                <span className="fw-semibold " > Actividades:</span> Tabiques metalcom y vidriado. Revestimientos de pavimentos 
+                                en porcelanato,  cerámica y alfombra. Pintura, carpintería metálica, instalación de cielo modular incluyendo luminarias y difusores clima. 
+                                Instalación de muebles, puertas, aire acondicionado, letrero de seguridad, tablero eléctrico, monitores de tv, entre otros. 
                             </p>
                         </>}
                     </ModalProyectos>
