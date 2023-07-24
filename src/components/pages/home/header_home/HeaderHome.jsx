@@ -6,7 +6,7 @@ import "./HeaderHome.css"
 
 export const HeaderHome = () => {
     return(<>
-        <header className="wrapper_header_home  d-flex justify-content-center">
+        <header className="wrapper_header_home  d-flex justify-content-center mx-auto">
             <video className="fondo_header_home" loop autoPlay muted poster={ ImgFondo } >
                 <source src="https://www.youtube.com/watch?v=IMCvJVmBB-8" type="video/mp4"/>
                 <source src={Video} type="video/webm"/>

@@ -22,36 +22,39 @@
     background-attachment: fixed;
 }
 .main_queHacemos{
-    max-width: 1300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 400px 50px;
-    grid-gap: 2rem;
-    grid-template-areas: 
-        "texto    ."
-        "texto   img"
-        "  .     img";
+    width: clamp(250px, 98%, 1300px);
 }
-.main_queHacemos div:first-child{
-    grid-area: texto;
-    justify-items: start;
-}
-.main_queHacemos div:first-child h2{
+
+.main_queHacemos h2{
     width: 100%;
     font-size: 2.8rem;
     font-weight: 600;
-    
+}
+.main_queHacemos_texto div:first-child  {
+    width: clamp(250px, 98%, 500px);
 }
 .main_queHacemos_texto p{
-    width: clamp(300px, 98%, 530px);
     font-weight: 500;
     color: var(--color-parrafos);
     font-size: 1.15rem;
+    text-align: justify;
     line-height: 1.8;
 }
-.main_queHacemos div:last-child{
-    grid-area: img;
+.main_queHacemos_img img{
+    width: 350px;
+    height: 350px;
 }
-.main_queHacemos div:last-child img{
-    transform: scale(1.2);
+.btn_contactar{
+    width: 240px;
+}
+
+
+@media (min-width:992px ) {
+    .main_queHacemos_texto p{
+        width: clamp(300px, 98%, 530px);
+        text-align: start;
+    }
+    .btn_contactar{
+        width: 160px;
+    }
 }

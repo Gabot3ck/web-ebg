@@ -14,17 +14,20 @@ import { Contacto } from "../contacto/Contacto";
 
 export const Home = () => {
     
-    return (<>
-        <Nav/>
-        <HeaderHome/>
-        <QueHacemos/>
-        <DatosEstadisticos/>
-        <AlgunosTrabajos/>
-        <PorQueNosotros/>
-        <NuestrosServicios/>
-        <Clientes />
-        <Contacto />
-        <Footer />
-        <BtnWhatsApp />
-    </>)
+    return(
+        <>
+            <Nav/>
+            <HeaderHome/>
+            <QueHacemos/>
+            <DatosEstadisticos/>
+            <AlgunosTrabajos/>
+            <PorQueNosotros/>
+            <NuestrosServicios/>
+            <Clientes />
+            <Contacto />
+            <Footer />
+            <BtnWhatsApp />
+        </>
+        
+    )
 }
