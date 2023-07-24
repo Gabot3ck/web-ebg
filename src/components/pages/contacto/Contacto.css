@@ -58,6 +58,10 @@
 .bloqueado{
     cursor: not-allowed!important;
 }
+.contacto_formulario,
+.contacto_ubicacion{
+    width: 90%;
+}
 .contacto_formulario .btn-success{
     border-color: var(--color-texto);
     background-color: var(--color-texto);
@@ -77,4 +81,12 @@
     height: 350px;
     box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
 				-8px -8px 16px rgba(255, 255, 255, 0.8);
+}
+
+
+@media (min-width:992px ) {
+    .contacto_formulario,
+    .contacto_ubicacion{
+        width: 50%;
+    }
 }
