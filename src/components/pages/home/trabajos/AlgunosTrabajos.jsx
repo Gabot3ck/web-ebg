@@ -36,9 +36,9 @@ export const AlgunosTrabajos = () => {
                 </p>
             </div>
             
-            <main className="wrapper_trabajos_card d-flex px-2">
+            <main className="mx-auto px-2 w-100  d-flex flex-column flex-lg-row align-items-center justify-content-evenly wrapper_trabajos_card">
 
-                <section className="trabajos_card col-3 px-2">
+                <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={ LaReina } 
                         tituloCard="Caseta Municipal La Reina"
@@ -73,7 +73,7 @@ export const AlgunosTrabajos = () => {
                     </ModalProyectos>
                 </section>
 
-                <section className="trabajos_card col-3 px-2">
+                <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={ vitacura } 
                         tituloCard="Vitacura"
@@ -87,7 +87,7 @@ export const AlgunosTrabajos = () => {
                     />
                 </section>
 
-                <section className="trabajos_card col-3 px-2">
+                <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={  OficinaEnel  } 
                         tituloCard="Oficinas de Edificio ENEL"
@@ -123,7 +123,7 @@ export const AlgunosTrabajos = () => {
                     </ModalProyectos>
                 </section>
 
-                <section className="trabajos_card col-3 px-2">
+                <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={ Dyno } 
                         tituloCard="Planta Dyno Nobel"
