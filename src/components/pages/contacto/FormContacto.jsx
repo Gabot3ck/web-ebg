@@ -141,9 +141,9 @@ export const FormContacto = () => {
             autoComplete="off"
             id="formContacto"
             onSubmit={ handleSubmit }
-            >
+        >
 
-            <div className="w-75">
+            <div className="wrapper_form">
                 <label className="form-label">Nombre y apellido:</label>
                 <input
                     className={ `form-control-sm w-100 ${ errorName !== "" ? "errorInput" : "input" } ` }
@@ -159,7 +159,7 @@ export const FormContacto = () => {
                 
             </div>
 
-            <div className="w-75">
+            <div className="wrapper_form">
                 <label className="form-label">Correo electrónico:</label>
                 <input
                     className={ `form-control-sm w-100 ${ errorEmail !== "" ? "errorInput" : "input" } ` }
@@ -174,7 +174,7 @@ export const FormContacto = () => {
                 </span>
             </div>
 
-            <div className="w-75">
+            <div className="wrapper_form">
                 <label className="form-label">Asunto:</label>
                 <input
                     className={ `form-control-sm w-100 ${ errorAsunto !== "" ? "errorInput" : "input" } ` }
@@ -189,7 +189,7 @@ export const FormContacto = () => {
                 </span>
             </div>
 
-            <div className="w-75">
+            <div className="wrapper_form">
                 <label className="form-label">Mensaje:</label>
                 <textarea
                     className={ `form-control-sm w-100 ${ errorMensaje !== "" ? "errorInput" : "input" } ` }
@@ -199,7 +199,8 @@ export const FormContacto = () => {
                     value={ mensaje }
                     onChange={ (e) => handleInput(e, setMensaje) }
                     onBlur={ (e) => validateText(e, setActiveMensaje, setErrorMensaje) }
-                    rows="4"/>
+                    rows="4"
+                />
                 <span className="error" >
                     {errorMensaje !== "" ? errorMensaje : ""}
                 </span>
