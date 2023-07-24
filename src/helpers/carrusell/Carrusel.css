@@ -41,7 +41,7 @@
     transition: all .3s ease;
 }
 .wrapper_carrusel_servicios .carousel-item img{
-    width: 50%;
+    width: 100%;
 }
 .wrapper_carrusel_servicios .carousel-item .caption{
     display: flex;
@@ -60,7 +60,7 @@
     text-transform: uppercase;
 }
 .wrapper_carrusel_servicios .carousel-item .caption p{
-    max-width: 80%;
+    max-width: 90%;
 }
 
 
@@ -80,4 +80,16 @@
 }
 .texto-servicios li{
     list-style-type: disc;
+}
+
+
+
+
+@media (min-width:768px ) {
+    .wrapper_carrusel_servicios .carousel-item img{
+        width: 50%;
+    }
+    .wrapper_carrusel_servicios .carousel-item .caption p{
+        max-width: 80%;
+    }
 }

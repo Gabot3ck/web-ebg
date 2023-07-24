@@ -20,9 +20,9 @@ export const Home = () => {
             <HeaderHome/>
             <QueHacemos/>
             <DatosEstadisticos/>
-            <AlgunosTrabajos/>
             <PorQueNosotros/>
             <NuestrosServicios/>
+            <AlgunosTrabajos/>
             <Clientes />
             <Contacto />
             <Footer />
