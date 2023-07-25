@@ -18,7 +18,7 @@ export const CarruselServicios = () => {
     const cambiarEnlace = id => {
         setIdEnlace(id)
     }
-    
+
 
     return (<>
         <section className="mx-auto wrapper_carrusel_servicios">
@@ -35,13 +35,18 @@ export const CarruselServicios = () => {
                 }
             </div>
 
-            <div id="myCarousel" className="carousel slide carousel-fade w-100" data-bs-touch="true" data-bs-ride="false">
+            <div 
+                id="myCarousel" 
+                className="carousel slide carousel-fade w-100" 
+                data-bs-touch="true" 
+                data-bs-ride="false"
+            >
 
                 <div className="carousel-inner w-100">
                     
                     <div className="carousel-item d-flex flex-column flex-md-row active ">
                         <img src= { obrasCiviles } alt="Trabajos de Obras Civiles en EBG"/>
-                        <div className="caption texto-servicios py-3 py-lg-0">
+                        <div className="caption texto-servicios py-3 py-lg-0 ">
                             <h3 className="">Obras Civiles</h3>
                             <p className="step-3 mb-3 mb-lg-0">
                             Con sólida trayectoria en <strong>obras civiles</strong> , ofrecemos soluciones confiables y de calidad que transforman espacios, superando expectativas en cada proyecto. Descubre cómo nuestra experiencia puede impulsar tu éxito en la industria de la construcción, siendo nuestras especialidades:
@@ -61,7 +66,7 @@ export const CarruselServicios = () => {
                     
                     <div className="carousel-item d-flex flex-column flex-md-row">
                         <img src= { remodelacion  } alt="Trabajo de remodelaciones interiores de oficina en EBG Chile"/>
-                        <div className="caption texto-servicios py-3 py-lg-0">
+                        <div className="caption texto-servicios py-3 py-lg-0 ">
                             <h3 className="">Edificación Y Remodelación</h3>
                             <p className="step-3 mb-3 mb-lg-0">
                                 En el ámbito de edificaión y remodelaciones, somos líderes en brindar soluciones innovadoras y personalizadas. Nuestra experiencia en ingeniería y construcción se combina con una visión estética, te ayudaremos a renovar tus espacios para impulsar la productividad y reflejar la identidad de tu empresa. 

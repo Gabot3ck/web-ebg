@@ -1,4 +1,5 @@
 .wrapper_nuestros_servicios{
+    max-height: contain;
     background-color: var(--color-fondo);
 }
 .nuestros_servicios_texto h2{

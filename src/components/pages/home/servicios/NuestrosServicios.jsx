@@ -5,7 +5,7 @@ import { CarruselServicios } from "../../../../helpers/carrusell/CarruselServici
 export const NuestrosServicios = () => {
 
   return (<>
-    <section className="w-100 wrapper_nuestros_servicios py-5">
+    <section className="w-100 wrapper_nuestros_servicios pt-5 d-flex flex-column justify-content-between">
       <div className="nuestros_servicios_texto mx-auto">
         <h2 className="text-center step-7">Nuestros Servicios</h2>
         <p className="text-center mx-auto step-3">

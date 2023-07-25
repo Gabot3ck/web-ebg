@@ -1,21 +1,7 @@
-*{
-    --color-principal: #65C400;
-    --color-secundario: #DDDEDC;
-    --color-principalGlass: #65c4005b;
-    --color-secundarioGlass: #dddedccc;
-    --color-texto: #383838;
-    --color-textoGlass: #383838a9;
-    --color-border: #dee2e6;
-    --color-placeholder: #b4b4b4;
-    --color-fondo: #f8f9fa;
-    --color-parrafos: #515e72;
-    --color-green: #247a38;
-}
 .wrapper_trabajos{
     padding: 3rem 0;
 }
 .wrapper_trabajos .trabajos_texto{
-    padding: 2rem 0;
     width: clamp(300px, 98%, 1320px);
 }
 .wrapper_trabajos .trabajos_texto h2{

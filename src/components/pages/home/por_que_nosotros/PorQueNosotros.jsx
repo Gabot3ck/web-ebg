@@ -3,7 +3,7 @@ import "./PorQueNosotros.css";
 
 export const PorQueNosotros = () => {
     return (<>
-        <section className="w-100 wrapper_porque_nosotros py-5">
+        <section className="w-100 wrapper_porque_nosotros pt-5 pb-3 py-xl-5">
             <div className="porque_nosotros_texto mx-auto">
                 <h2 className="text-center step-7">¿Por Qué Nosotros?</h2>
                 <p className="text-center mx-auto step-3">
@@ -12,7 +12,7 @@ export const PorQueNosotros = () => {
             </div>
 
             <div className="container">
-                <div className="row px-5 px-xxl-0 row-cols-1 row-cols-md-2 g-4">
+                <div className="row px-5 px-xxl-0 row-cols-1 row-cols-md-2">
                     <CardStandares 
                         icono="fa-globe-americas"
                         titulo="Medio Ambiente"
