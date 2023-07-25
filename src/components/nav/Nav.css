@@ -25,7 +25,6 @@
 .wrapper_nav .navbar-brand img{
     height: 60px;
 }
-
 .nav-link{
     font-weight: 600;
     color: var(--color-secundario);
@@ -45,4 +44,10 @@
 }
 .bg_nav_a{
     color: var(--color-texto);
+}
+
+@media (max-width:768px ){
+    .navbar-nav{
+        background-color: #f8f9fa;
+    }
 }

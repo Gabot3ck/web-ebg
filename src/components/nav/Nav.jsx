@@ -29,7 +29,7 @@ export const Nav = () => {
     return (<>
         <div className={ `wrapper_nav w-100 ${color && "bg_nav"}`}>
             <nav className="navbar navbar-expand-lg  py-0 mx-auto">
-                <div className="container h-100 px-4 d-flex ">
+                <div className="container-xxl h-100 d-flex ">
 
                     <Link className="navbar-brand p-0" to="/">
                         <img className="" src={!color ? LogoLight : LogoDark} alt="Logo EBG" />
