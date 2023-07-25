@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { BiMenu } from "react-icons/bi";
 import LogoDark from "../../assets/images/ebg-logo-dark.png";
 import LogoLight from "../../assets/images/ebg-logo-light.png";
 
@@ -45,7 +46,7 @@ export const Nav = () => {
                             aria-expanded="false" 
                             aria-label="Toggle navigation"
                         >
-                            <span className="navbar-toggler-icon"></span>
+                            <BiMenu />
                         </button>
                     
                         <div className="collapse navbar-collapse " id="navbarSupportedContent">

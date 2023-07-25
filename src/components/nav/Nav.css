@@ -45,6 +45,16 @@
 .bg_nav_a{
     color: var(--color-texto);
 }
+.navbar-toggler{
+    color: #65C400;
+    border: 2px solid #65C400;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+
 
 @media (max-width:768px ){
     .navbar-nav{
