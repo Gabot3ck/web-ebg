@@ -5,9 +5,9 @@ export const PorQueNosotros = () => {
     return (<>
         <section className="w-100 wrapper_porque_nosotros py-5">
             <div className="porque_nosotros_texto mx-auto">
-                <h2 className="text-center">¿Por Qué Nosotros?</h2>
-                <p className="text-center mx-auto">
-                Destacamos por nuestra sólida cultura de seguridad laboral y sostenibilidad en todos los niveles. Nos enorgullece trabajar con colaboradores, clientes y proveedores comprometidos con valores similares.
+                <h2 className="text-center step-7">¿Por Qué Nosotros?</h2>
+                <p className="text-center mx-auto step-3">
+                    Destacamos por nuestra sólida cultura de seguridad laboral y sostenibilidad en todos los niveles. Nos enorgullece trabajar con colaboradores, clientes y proveedores comprometidos con valores similares.
                 </p>
             </div>
 

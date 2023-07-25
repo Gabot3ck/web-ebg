@@ -24,10 +24,8 @@
 .main_queHacemos{
     width: clamp(250px, 98%, 1300px);
 }
-
 .main_queHacemos h2{
     width: 100%;
-    font-size: 2.8rem;
     font-weight: 600;
 }
 .main_queHacemos_texto div:first-child  {
@@ -36,7 +34,6 @@
 .main_queHacemos_texto p{
     font-weight: 500;
     color: var(--color-parrafos);
-    font-size: 1.15rem;
     text-align: justify;
     line-height: 1.8;
 }
@@ -47,6 +44,7 @@
 .btn_contactar{
     width: 240px;
 }
+
 
 
 @media (min-width:992px ) {

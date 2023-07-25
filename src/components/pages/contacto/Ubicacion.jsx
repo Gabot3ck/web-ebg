@@ -8,9 +8,9 @@ export const Ubicacion = () => {
     return (<>
         <section className="w-100 d-flex flex-column h-100 gap-5">
 
-            <div className="datos d-flex gap-4 justify-content-between">
+            <div className="d-flex flex-column flex-sm-row gap-4 justify-content-between datos">
 
-                <div className="contacto w-50 d-flex flex-column">
+                <div className="contacto d-flex flex-column">
                     <p className="h5 mb-3" >Información de contacto</p>
                     <div className="correo d-flex">
                         <i className="fas fa-envelope me-2"></i>
@@ -26,7 +26,7 @@ export const Ubicacion = () => {
                     </div>
                 </div>
 
-                <div className="direccion w-50">
+                <div className="direccion">
                     <p className="h5 mb-3" >Dirección</p>
                     <div className="direccion d-flex">
                         <i className="fas fa-map-marker-alt me-2"></i>

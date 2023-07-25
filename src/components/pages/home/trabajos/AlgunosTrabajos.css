@@ -19,7 +19,6 @@
     width: clamp(300px, 98%, 1320px);
 }
 .wrapper_trabajos .trabajos_texto h2{
-    font-size: 2.8rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -27,7 +26,6 @@
     width: clamp(300px, 90%, 1320px);
     color: var(--color-parrafos);
     font-weight: 500;
-    font-size: 1.15rem;
     line-height: 1.8;
 }
 .wrapper_trabajos_card{

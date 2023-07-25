@@ -1,20 +1,7 @@
-*{
-    --color-principal: #65C400;
-    --color-secundario: #DDDEDC;
-    --color-principalGlass: #65c4005b;
-    --color-secundarioGlass: #dddedccc;
-    --color-texto: #383838;
-    --color-textoGlass: #383838a9;
-    --color-border: #dee2e6;
-    --color-placeholder: #b4b4b4;
-    --color-fondo: #f8f9fa;
-    --color-parrafos: #515e72;
-}
 .wrapper_nuestros_servicios{
     background-color: var(--color-fondo);
 }
 .nuestros_servicios_texto h2{
-    font-size: 2.8rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -22,7 +9,6 @@
     width: clamp(300px, 90%, 1320px);
     color: var(--color-parrafos);
     font-weight: 500;
-    font-size: 1.15rem;
     line-height: 1.8;
 }
 

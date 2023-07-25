@@ -30,8 +30,8 @@ export const AlgunosTrabajos = () => {
     return (<>
         <section className="w-100 wrapper_trabajos mb-5 ">
             <div className="trabajos_texto mx-auto">
-                <h2 className="text-center ">Algunos proyectos</h2>
-                <p className="text-center mx-auto">
+                <h2 className="text-center step-7">Algunos proyectos</h2>
+                <p className="text-center mx-auto step-3">
                     De la remodelación de espacios urbanos a la construcción de infraestructuras vitales, nuestros proyectos demuestran nuestro compromiso con la calidad, la innovación y la entrega de resultados excepcionales.
                 </p>
             </div>

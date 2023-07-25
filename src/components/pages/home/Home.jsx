@@ -8,7 +8,6 @@ import { NuestrosServicios } from "./servicios/NuestrosServicios";
 import { Clientes } from "./clientes/Clientes";
 import { Footer } from "../footer/Footer";
 import { BtnWhatsApp } from "../../../helpers/boton_whatsapp/BtnWhatsApp";
-import "./Home.css";
 import { Contacto } from "../contacto/Contacto";
 
 

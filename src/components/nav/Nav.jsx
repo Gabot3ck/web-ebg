@@ -36,6 +36,8 @@ export const Nav = () => {
                         <img className="" src={!color ? LogoLight : LogoDark} alt="Logo EBG" />
                     </Link>
 
+                    {
+                        color && 
 
                         <button 
                             className="navbar-toggler " 
@@ -48,37 +50,36 @@ export const Nav = () => {
                         >
                             <BiMenu />
                         </button>
+                    }
                     
-                        <div className="collapse navbar-collapse " id="navbarSupportedContent">
-                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                                <li className="nav-item px-lg-3">
-                                    <Link to="/" className={`nav-link ${window.location.pathname === "/" ? "activado" : ""} ${color && "bg_nav_a"}`}>Inicio</Link>
-                                </li>
-                                <li className="nav-item px-lg-3">
-                                    <Link to="/nosotros" className={`nav-link ${window.location.pathname === "/nosotros" ? "activado" : ""} ${color && "bg_nav_a"}`}>Nosotros</Link>
-                                </li>
-                                <li className="nav-item dropdown px-lg-3">
-                                    <a className= {`nav-link dropdown-toggle ${color && "bg_nav_a"}`} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Servicios
-                                    </a>
-                                    <ul className="dropdown-menu">
-                                        <Link className="dropdown-item" to="/oocc">Obras Civiles</Link>
-                                        <li><a className="dropdown-item" href="/">Edificación y Remodelación</a></li>
-                                        <li><a className="dropdown-item" href="/">Obras Industriales</a></li>
-                                        <li><a className="dropdown-item" href="/">Asesoría</a></li>
-                                    </ul>
-                                </li>
-                                <li className="nav-item px-lg-3">
-                                    <Link to="/proyectos" className={`nav-link ${window.location.pathname === "/proyectos" ? "activado" : ""} ${color && "bg_nav_a"}`}>Proyectos</Link>
-                                </li>
-                                <li className="nav-item px-lg-3">
-                                    <Link to="/contacto" className={`nav-link ${window.location.pathname === "/contacto" ? "activado" : ""} ${color && "bg_nav_a"}`}>Contacto</Link>
-                                </li>
-                            </ul>
-                        </div>
+                    <div className="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li className="nav-item px-lg-3">
+                                <Link to="/" className={`nav-link step-2 ${window.location.pathname === "/" ? "activado" : ""} ${color && "bg_nav_a"}`}>Inicio</Link>
+                            </li>
+                            <li className="nav-item px-lg-3">
+                                <Link to="/nosotros" className={`nav-link step-2 ${window.location.pathname === "/nosotros" ? "activado" : ""} ${color && "bg_nav_a"}`}>Nosotros</Link>
+                            </li>
+                            <li className="nav-item dropdown px-lg-3">
+                                <a className= {`nav-link step-2 dropdown-toggle ${color && "bg_nav_a"}`} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <Link className="dropdown-item step-2" to="/oocc">Obras Civiles</Link>
+                                    <li><a className="dropdown-item step-2" href="/">Edificación y Remodelación</a></li>
+                                    <li><a className="dropdown-item step-2" href="/">Obras Industriales</a></li>
+                                    <li><a className="dropdown-item step-2" href="/">Asesoría</a></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item px-lg-3">
+                                <Link to="/proyectos" className={`nav-link step-2 ${window.location.pathname === "/proyectos" ? "activado" : ""} ${color && "bg_nav_a"}`}>Proyectos</Link>
+                            </li>
+                            <li className="nav-item px-lg-3">
+                                <Link to="/contacto" className={`nav-link step-2 ${window.location.pathname === "/contacto" ? "activado" : ""} ${color && "bg_nav_a"}`}>Contacto</Link>
+                            </li>
+                        </ul>
+                    </div>
 
-                    
-                    
                 </div>
             </nav>
         </div>

@@ -11,7 +11,7 @@ export const Clientes = () => {
     return (<>
         <section className="wrapper_clientes w-100 mb-5">
             <div className="clientes_texto mx-auto mb-4">
-                <h2 className="text-center">Nuestros Clientes</h2>
+                <h2 className="text-center step-7">Nuestros Clientes</h2>
             </div>
             <div className="clientes_logos d-flex justify-content-between mx-auto">
                     <img src={ dominion } alt="Logo de Dominion" />

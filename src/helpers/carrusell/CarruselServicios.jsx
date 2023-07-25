@@ -42,7 +42,7 @@ export const CarruselServicios = () => {
                     <div className="carousel-item d-flex flex-column flex-md-row active ">
                         <img src= { obrasCiviles } alt="Trabajos de Obras Civiles en EBG"/>
                         <div className="caption texto-servicios py-3 py-lg-0">
-                            <h3 className="titulo2 step-5">Obras Civiles</h3>
+                            <h3 className="">Obras Civiles</h3>
                             <p className="step-3 mb-3 mb-lg-0">
                             Con sólida trayectoria en <strong>obras civiles</strong> , ofrecemos soluciones confiables y de calidad que transforman espacios, superando expectativas en cada proyecto. Descubre cómo nuestra experiencia puede impulsar tu éxito en la industria de la construcción, siendo nuestras especialidades:
 
@@ -62,7 +62,7 @@ export const CarruselServicios = () => {
                     <div className="carousel-item d-flex flex-column flex-md-row">
                         <img src= { remodelacion  } alt="Trabajo de remodelaciones interiores de oficina en EBG Chile"/>
                         <div className="caption texto-servicios py-3 py-lg-0">
-                            <h3 className="titulo2 step-5">Edificación Y Remodelación</h3>
+                            <h3 className="">Edificación Y Remodelación</h3>
                             <p className="step-3 mb-3 mb-lg-0">
                                 En el ámbito de edificaión y remodelaciones, somos líderes en brindar soluciones innovadoras y personalizadas. Nuestra experiencia en ingeniería y construcción se combina con una visión estética, te ayudaremos a renovar tus espacios para impulsar la productividad y reflejar la identidad de tu empresa. 
                                 <br /><br />
@@ -82,7 +82,7 @@ export const CarruselServicios = () => {
                     <div className="carousel-item d-flex flex-column flex-md-row">
                         <img src= { container  }  alt="..."/>
                         <div className="caption texto-servicios py-3 py-lg-0">
-                            <h3 className="titulo2 step-5">Obras Industriales</h3>
+                            <h3 className="">Obras Industriales</h3>
                             <p className="mb-3 mb-lg-0 step-3">
                                 En la construcción de obras industriales, somos líderes en innovación y eficiencia. Nuestra experiencia en ingeniería y construcción se combina para crear estructuras robustas y versátiles, adaptadas a tus necesidades específicas. Confía en nosotros para edificar soluciones sólidas y vanguardistas
                                 <br /><br />
@@ -101,7 +101,7 @@ export const CarruselServicios = () => {
                     <div className="carousel-item d-flex flex-column flex-md-row">
                         <img src= { consultoria}  alt="..."/>
                         <div className="caption texto-servicios py-3 py-lg-0">
-                            <h3 className="titulo2 step-5">Asesoría</h3>
+                            <h3 className="">Asesoría</h3>
                             <p className=" mb-3 mb-lg-0 step-3">
                             Potencia el éxito de tus proyectos con nuestro respaldo experto para el éxito de tus iniciativas. Nuestro equipo de expertos en ingeniería y construcción te guiará en cada etapa, aportando conocimientos estratégicos y soluciones personalizadas. 
                             <br /><br />
