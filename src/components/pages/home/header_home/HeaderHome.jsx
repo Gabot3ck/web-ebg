@@ -12,7 +12,6 @@ export const HeaderHome = () => {
                 <source src={Video} type="video/webm"/>
                 <source src={Video} type="video/ogg"/>
                 <source src={Video} type="video/mp4"/>
-                <img src={ ImgFondo } alt="EBG trabajo de remodelación de cielo raso" />
             </video>
             <div className="header_home mx-auto d-flex justify-content-center" >
                 <img className="" src={ Logo } alt="Logotipo EBG Ingeniería y Construcción" />

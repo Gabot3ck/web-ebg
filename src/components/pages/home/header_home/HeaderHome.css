@@ -27,7 +27,7 @@
     height: 236px;
 }
 
-@media (min-width:992px ) {
+@media (min-width:1200px ) {
     .wrapper_header_home .fondo_header_home{
         min-width: 100%;
         height: auto;
