@@ -1,6 +1,6 @@
 import  Video  from "../../../../assets/videos/video_construccion.mp4";
 import Logo from "../../../../assets/images/logo-home-vertical.png";
-import ImgFondo from "../../../../assets/images/imagen_fondo_home.jpg";
+import ImgFondo from "../../../../assets/images/fondo_home.jpg";
 
 import "./HeaderHome.css"
 
