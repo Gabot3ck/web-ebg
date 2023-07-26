@@ -10,5 +10,12 @@
     width: clamp(300px, 80%, 1380px);
 }
 .clientes_logos img{
-    width: 12%;
+    width: 14%;
+}
+.clientes_logos .img_1,
+.clientes_logos .img_3{
+    width: 18%;
+}
+.clientes_logos .img_4{
+    width: 11%;
 }
