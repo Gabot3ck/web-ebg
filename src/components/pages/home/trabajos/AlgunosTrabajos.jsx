@@ -28,7 +28,7 @@ import "./AlgunosTrabajos.css";
 
 export const AlgunosTrabajos = () => {
     return (<>
-        <section className="w-100 wrapper_trabajos mb-5 ">
+        <section className="w-100 wrapper_trabajos mb-5 " id="proyectos">
             <div className="trabajos_texto mx-auto mb-4 mb-lg-0">
                 <h2 className="text-center step-7 mt-lg-5">Algunos proyectos</h2>
                 <p className="text-center mx-auto step-3">

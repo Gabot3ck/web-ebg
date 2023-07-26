@@ -25,7 +25,7 @@ export const ModalProyectos = ({
         <button type="button" className="btn_modal px-0 rounded " data-bs-toggle="modal" data-bs-target={`#${img}`}>
             <img src={ img } alt={ alt } className="rounded-top" />
             <h3 className="fs-5 text-center">{ tituloCard }</h3>
-            <p>{area}</p>
+            <p className="text-decoration-underline" >{area}</p>
         </button>
 
 

@@ -58,21 +58,28 @@ export const Nav = () => {
                                 <Link to="/" className={`nav-link step-2 ${window.location.pathname === "/" ? "activado" : ""} ${color && "bg_nav_a"}`}>Inicio</Link>
                             </li>
                             <li className="nav-item px-lg-3">
-                                <Link to="/nosotros" className={`nav-link step-2 ${window.location.pathname === "/nosotros" ? "activado" : ""} ${color && "bg_nav_a"}`}>Nosotros</Link>
-                            </li>
-                            <li className="nav-item dropdown px-lg-3">
-                                <a className= {`nav-link step-2 dropdown-toggle ${color && "bg_nav_a"}`} href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Servicios
+                                <a 
+                                    href="#nosotros" 
+                                    className={`nav-link step-2`}
+                                >
+                                    Nosotros
                                 </a>
-                                <ul className="dropdown-menu">
-                                    <Link className="dropdown-item step-2" to="/oocc">Obras Civiles</Link>
-                                    <li><a className="dropdown-item step-2" href="/">Edificación y Remodelación</a></li>
-                                    <li><a className="dropdown-item step-2" href="/">Obras Industriales</a></li>
-                                    <li><a className="dropdown-item step-2" href="/">Asesoría</a></li>
-                                </ul>
                             </li>
                             <li className="nav-item px-lg-3">
-                                <Link to="/proyectos" className={`nav-link step-2 ${window.location.pathname === "/proyectos" ? "activado" : ""} ${color && "bg_nav_a"}`}>Proyectos</Link>
+                                <a 
+                                    href="#servicios" 
+                                    className={`nav-link step-2`}
+                                >
+                                    Servicios
+                                </a>
+                            </li>
+                            <li className="nav-item px-lg-3">
+                                <a 
+                                    href="#proyectos" 
+                                    className={`nav-link step-2`}
+                                >
+                                    Proyectos
+                                </a>
                             </li>
                             <li className="nav-item px-lg-3">
                                 <Link to="/contacto" className={`nav-link step-2 ${window.location.pathname === "/contacto" ? "activado" : ""} ${color && "bg_nav_a"}`}>Contacto</Link>
