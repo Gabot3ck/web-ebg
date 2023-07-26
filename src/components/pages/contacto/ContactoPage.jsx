@@ -7,10 +7,10 @@ import "./Contacto.css";
 
 export const ContactoPage = () => {
     return (<>
-        <div className="fondo_nav" >
-
-        </div>
-        <section className="container_contacto w-100 pt-4">
+        
+        <section className="container_contacto  w-100 d-flex flex-column justify-content-between">
+            <div className="fondo_nav mb-4 mb-lg-3" >
+            </div>
             <Nav/>
             <Contacto />
             <Footer />

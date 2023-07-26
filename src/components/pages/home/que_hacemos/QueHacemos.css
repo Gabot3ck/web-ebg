@@ -1,19 +1,6 @@
-*{
-    --color-principal: #65C400;
-    --color-secundario: #DDDEDC;
-    --color-principalGlass: #65c4005b;
-    --color-secundarioGlass: #dddedccc;
-    --color-texto: #383838;
-    --color-textoGlass: #383838a9;
-    --color-border: #dee2e6;
-    --color-placeholder: #b4b4b4;
-    --color-fondo: #f8f9fa;
-    --color-parrafos: #515e72;
-}
-
 .wrapper_queHacemos{
     position: relative;
-    padding: 7rem 0 3.5rem;
+    padding: 4.5rem 0;
     background: linear-gradient(to left, rgba(216, 215, 215, 0.93), rgba(250, 255, 251, 0.62)),
                 url(../../../../../public/images/planos.jpg);
     background-repeat: no-repeat;

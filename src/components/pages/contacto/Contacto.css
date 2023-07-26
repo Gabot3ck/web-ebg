@@ -77,12 +77,7 @@
 }
 @media (min-width:576px ) {
     .contacto_formulario .wrapper_form{
-        width: 50%;
-    }
-}
-@media (min-width:768px ) {
-    .contacto_formulario .wrapper_form{
-        width: 75%;
+        width: clamp( 350px, 70%, 475px);
     }
 }
 
