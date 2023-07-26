@@ -1,3 +1,5 @@
+import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { FaGlobeAmericas, FaUsers, FaAward } from "react-icons/fa";
 import { CardStandares } from "../../../../helpers/cards/CardStandares";
 import "./PorQueNosotros.css";
 
@@ -13,26 +15,26 @@ export const PorQueNosotros = () => {
 
             <div className="container">
                 <div className="row px-5 px-xxl-0 row-cols-1 row-cols-md-2">
-                    <CardStandares 
-                        icono="fa-globe-americas"
+                    <CardStandares
+                        icono={ <FaGlobeAmericas /> } 
                         titulo="Medio Ambiente"
                         texto="Comprometidos a proteger el medio ambiente y a reducir la huella de carbono, así construimos un futuro más verde."
                     />
 
-                    <CardStandares 
-                        icono="fa-users"
+                    <CardStandares
+                        icono={ <FaUsers /> } 
                         titulo="Comunidad"
                         texto="Nos involucramos activamente en iniciativas comunitarias y promovemos una cadena de suministro ética y segura."
                     />
 
-                    <CardStandares 
-                        icono="fa-hard-hat"
+                    <CardStandares
+                        icono={ <MdOutlineHealthAndSafety /> }  
                         titulo="Seguridad"
                         texto="La seguridad es nuestra prioridad absoluta, implementamos rigurosas medidas y prácticas para salvaguardar a nuestros equipos, clientes y proveedores."
                     />
 
-                    <CardStandares 
-                        icono="fa-award"
+                    <CardStandares
+                        icono={ <FaAward /> }  
                         titulo="Valores"
                         texto='Actuamos con honestidad, ética y transparencia en todas nuestras operaciones, bajo el lema: "Uniendo Valores, Construimos Futuro".'
                     />

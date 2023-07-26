@@ -4,6 +4,6 @@
 .card_standard .card{
     border: none;
 }
-.fa-hard-hat, .fa-users, .fa-globe-americas, .fa-award{
+.color_icon{
     color: var(--color-principal);
 }
