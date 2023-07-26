@@ -30,6 +30,9 @@
 .indicadores{
     color: var(--color-green);
 }
+.text_justify{
+    text-align: justify;
+}
 @media (min-width:992px ) {
     .trabajos_card:nth-child(1),
     .trabajos_card:nth-child(2),

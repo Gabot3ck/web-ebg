@@ -12,13 +12,11 @@ export const ModalProyectos = ({
     tituloCard,
     titulo,
     area, 
-    lugar, 
     foto1, 
     foto2, 
     foto3, 
     foto4,
-    link,
-    title}) => {
+    link,}) => {
 
 
 
@@ -65,11 +63,7 @@ export const ModalProyectos = ({
                         </div>
         
                         <div className="wrapper_textos_modal px-2 ps-lg-3 ps-xl-5">
-                            <div className="textos_modal d-flex gap-2 mb-2">
-                                <i className="bi bi-geo-alt-fill"></i>
-                                <p className="m-0">{ lugar }</p>
-                            </div>
-                            <h3 className="text-start my-3 titulo_modal ">{ titulo }</h3>
+                            <h3 className="text-start mb-3 titulo_modal ">{ titulo }</h3>
                             <section className="textos_modal mb-5" >
                                 { children }
                             </section>

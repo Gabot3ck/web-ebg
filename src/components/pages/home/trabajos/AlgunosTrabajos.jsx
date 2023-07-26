@@ -29,7 +29,7 @@ import "./AlgunosTrabajos.css";
 export const AlgunosTrabajos = () => {
     return (<>
         <section className="w-100 wrapper_trabajos mb-5 ">
-            <div className="trabajos_texto mx-auto">
+            <div className="trabajos_texto mx-auto mb-4 mb-lg-0">
                 <h2 className="text-center step-7 mt-lg-5">Algunos proyectos</h2>
                 <p className="text-center mx-auto step-3">
                     De la remodelación de espacios urbanos a la construcción de infraestructuras vitales, nuestros proyectos demuestran nuestro compromiso con la calidad, la innovación y la entrega de resultados excepcionales.
@@ -44,14 +44,17 @@ export const AlgunosTrabajos = () => {
                         tituloCard="Caseta Municipal La Reina"
                         titulo="Caseta Municipal"
                         area="Edificación"
-                        lugar= "Av. Sánchez Fontecilla esquina Eliecer Parada, La Reina, Santiago RM."
                         foto1={ foto1 }
                         foto2={ foto2 }
                         foto3={ foto3 }
                         foto4={ foto4 }
                     >
                         {<>
-                            <p className="mb-3" >Construcción del  "Centro de Seguridad Comunitaria Unidad Vecinal N°1" en la comuna de La Reina.</p>
+                            <p className="mb-3 text_justify" >Construcción del  "Centro de Seguridad Comunitaria Unidad Vecinal N°1" en la comuna de La Reina.</p>
+                            <p className="mb-2 text_justify">
+                                <i className="bi bi-geo-alt-fill"></i>
+                                <span className="fw-semibold " > Lugar: </span>Av. Sánchez Fontecilla esquina Eliecer Parada, La Reina, Santiago RM.
+                            </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
                                 <span className="fw-semibold " > Fecha de inicio: </span>10 diciembre 2022.
@@ -64,7 +67,7 @@ export const AlgunosTrabajos = () => {
                                 <GoContainer className="" />
                                 <span className="fw-semibold "> m<sup>2</sup>: </span>  100  m<sup>2.</sup>
                             </p>
-                            <p className="mb-2">
+                            <p className="mb-2 text_justify">
                                 <IoConstruct className="" />
                                 <span className="fw-semibold " > Actividades:</span> Mejoramiento de suelo, fundaciones, carpintería metálica, ventanas termopanel, tabiquería,
                                 piso fotolaminado. Instalaciones eléctricas, sanitarias, climatización. Revestimiento exterior, terraza, pintura, gráficas y paisajismo.
@@ -76,15 +79,39 @@ export const AlgunosTrabajos = () => {
                 <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={ vitacura } 
-                        tituloCard="Vitacura"
-                        titulo=""
+                        tituloCard="Proyecto "
+                        titulo="Proyecto OOCC"
                         area="OOCC"
-                        lugar= "Dirección"
                         foto1={ vitacura1 }
                         foto2={ vitacura2 }
                         foto3={ vitacura3 }
                         foto4={ vitacura4 }
-                    />
+                    >
+                        {<>
+                            <p className="mb-3 text_justify" >Construcción del  "Centro de Seguridad Comunitaria Unidad Vecinal N°1" en la comuna de La Reina.</p>
+                            <p className="mb-2 text_justify">
+                                <i className="bi bi-geo-alt-fill"></i>
+                                <span className="fw-semibold " > Lugar: </span>Dirección
+                            </p>
+                            <p className="mb-2">
+                                <MdCalendarMonth className="" />
+                                <span className="fw-semibold " > Fecha de inicio: </span>10 diciembre 2022.
+                            </p>
+                            <p className="mb-2">
+                                <MdCalendarMonth className="" />
+                                <span className="fw-semibold " > Fecha de término: </span>25 junio 2023.
+                            </p>
+                            <p className="mb-2">
+                                <GoContainer className="" />
+                                <span className="fw-semibold "> m<sup>2</sup>: </span>  100  m<sup>2.</sup>
+                            </p>
+                            <p className="mb-2 text_justify">
+                                <IoConstruct className="" />
+                                <span className="fw-semibold " > Actividades:</span> Mejoramiento de suelo, fundaciones, carpintería metálica, ventanas termopanel, tabiquería,
+                                piso fotolaminado. Instalaciones eléctricas, sanitarias, climatización. Revestimiento exterior, terraza, pintura, gráficas y paisajismo.
+                            </p>
+                        </>}
+                    </ModalProyectos>
                 </section>
 
                 <section className="trabajos_card px-2">
@@ -93,14 +120,17 @@ export const AlgunosTrabajos = () => {
                         tituloCard="Oficinas de Edificio ENEL"
                         titulo="Edificio ENEL"
                         area="Remodelaciones"
-                        lugar= "AV. Santa Rosa 76, Santiago RM."
                         foto1={ enel1 }
                         foto2={ enel2 }
                         foto3={ enel3 }
                         foto4={ enel4 }
                     >
                         {<>
-                            <p className="mb-3" >Reparación y remodelación de las oficinas corporativas en los piso 4, 9, 12, 13 y 16 del edifico principal de la empresa ENEL Chile.</p>
+                            <p className="mb-3 text_justify" >Reparación y remodelación de las oficinas corporativas en los piso 4, 9, 12, 13 y 16 del edifico principal de la empresa ENEL Chile.</p>
+                            <p className="mb-2 text_justify">
+                                <i className="bi bi-geo-alt-fill"></i>
+                                <span className="fw-semibold " > Lugar: </span>AV. Santa Rosa 76, Santiago RM.
+                            </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
                                 <span className="fw-semibold " > Fecha de inicio: </span>10 diciembre 2022.
@@ -113,7 +143,7 @@ export const AlgunosTrabajos = () => {
                                 <GoContainer className="" />
                                 <span className="fw-semibold "> m<sup>2</sup>: </span>  7500  m<sup>2.</sup>
                             </p>
-                            <p className="mb-2">
+                            <p className="mb-2 text_justify">
                                 <IoConstruct className="" />
                                 <span className="fw-semibold " > Actividades:</span> Tabiques metalcom y vidriado. Revestimientos de pavimentos 
                                 en porcelanato,  cerámica y alfombra. Pintura, carpintería metálica, instalación de cielo modular incluyendo luminarias y difusores clima. 
@@ -129,14 +159,17 @@ export const AlgunosTrabajos = () => {
                         tituloCard="Planta Dyno Nobel"
                         titulo="Planta Industrial Dyno Nobel"
                         area="Estructuras"
-                        lugar= "Las Barrancas, IV Región Coquimbo."
                         foto1={ dyno1 }
                         foto2={ dyno2 }
                         foto3={ dyno3 }
                         foto4={ dyno4 }
                     >
                         {<>
-                            <p className="mb-3" >Construcción modular y estructura metálica de una planta industrial de fabricación y ensamblaje de explosivos mineros.</p>
+                            <p className="mb-3 text_justify" >Construcción modular y estructura metálica de una planta industrial de fabricación y ensamblaje de explosivos mineros.</p>
+                            <p className="mb-2 text_justify">
+                                <i className="bi bi-geo-alt-fill"></i>
+                                <span className="fw-semibold " > Lugar: </span>Las Barrancas, IV Región Coquimbo.
+                            </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
                                 <span className="fw-semibold " > Fecha de inicio: </span>15 noviembre 2010.
@@ -149,7 +182,7 @@ export const AlgunosTrabajos = () => {
                                 <GoContainer className="" />
                                 <span className="fw-semibold "> m<sup>2</sup>: </span>  3400  m<sup>2.</sup>
                             </p>
-                            <p className="mb-2">
+                            <p className="mb-2 text_justify">
                                 <IoConstruct className="" />
                                 <span className="fw-semibold " > Actividades:</span> Nave de emsamble, bodega galpón, oficina de administración,
                                 alimentación electrica de media tensión aérea, instalación de un transformador de energía a planta,
