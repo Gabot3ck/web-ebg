@@ -31,15 +31,29 @@ export const ModalProyectos = ({
         </button>
 
 
-        <div className="modal fade modal_proyectos" id={img} data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div 
+            className="modal fade modal_proyectos" 
+            id={ img } 
+            data-bs-backdrop="static" 
+            data-bs-keyboard="false" 
+            tabIndex="-1" 
+            aria-labelledby="staticBackdropLabel" 
+            aria-hidden="true"
+        >
             <div className="modal-dialog modal-xl px-5 px-xxl-0">
                 <div className="modal-content">
 
                     <div className="modal-header">
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button 
+                            type="button" 
+                            className="btn-close" 
+                            data-bs-dismiss="modal" 
+                            aria-label="Close"
+                        >
+                        </button>
                     </div>
     
-                    <div className="modal-body pt-0 d-flex">
+                    <div className="modal-body pt-0 d-flex flex-column flex-lg-row">
 
                         <div className="wrapper_images_modal ">
                             <CarruselModalProyectos
@@ -50,7 +64,7 @@ export const ModalProyectos = ({
                             />
                         </div>
         
-                        <div className="wrapper_textos_modal   ps-5">
+                        <div className="wrapper_textos_modal px-2 ps-lg-3 ps-xl-5">
                             <div className="textos_modal d-flex gap-2 mb-2">
                                 <i className="bi bi-geo-alt-fill"></i>
                                 <p className="m-0">{ lugar }</p>
