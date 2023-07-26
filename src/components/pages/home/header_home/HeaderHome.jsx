@@ -11,6 +11,7 @@ export const HeaderHome = () => {
                 <source src="https://www.youtube.com/watch?v=IMCvJVmBB-8" type="video/mp4"/>
                 <source src={Video} type="video/webm"/>
                 <source src={Video} type="video/ogg"/>
+                <source src={Video} type="video/mp4"/>
                 <img src={ ImgFondo } alt="EBG trabajo de remodelación de cielo raso" />
             </video>
             <div className="header_home mx-auto d-flex justify-content-center" >
