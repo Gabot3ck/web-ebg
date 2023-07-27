@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import imagen from "../../../../assets/images/serviciosEBG.jpg"
 import "./QueHacemos.css";
 
@@ -22,7 +21,7 @@ export const QueHacemos = () => {
 					</div>
 				</section>
 				
-				<Link to={'/contacto'} className="btn btn-success mt-4 btn_contactar  mx-auto ms-lg-4 step-3">Contactar</Link>
+				<a href='#contacto' className="btn btn-success mt-4 btn_contactar  mx-auto ms-lg-4 step-3">Contactar</a>
 			</main>
 
 		</section>

@@ -38,7 +38,7 @@ export const ModalProyectos = ({
             aria-labelledby="staticBackdropLabel" 
             aria-hidden="true"
         >
-            <div className="modal-dialog modal-xl px-5 px-xxl-0">
+            <div className="modal-dialog modal-fullscreen-md-down modal-xl px-5 px-xxl-0 ">
                 <div className="modal-content">
 
                     <div className="modal-header">

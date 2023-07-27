@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 import LogoDark from "../../assets/images/ebg-logo-dark.png";
 import LogoLight from "../../assets/images/ebg-logo-light.png";
@@ -32,9 +31,9 @@ export const Nav = () => {
             <nav className="navbar navbar-expand-lg  py-0 mx-auto">
                 <div className="container-xxl h-100 d-flex ">
 
-                    <Link className="navbar-brand p-0" to="/">
+                    <a className="navbar-brand p-0" href="#inicio">
                         <img className="" src={!color ? LogoLight : LogoDark} alt="Logo EBG" />
-                    </Link>
+                    </a>
 
                     {
                         color && 
@@ -55,7 +54,7 @@ export const Nav = () => {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                             <li className="nav-item px-lg-3">
-                                <Link to="/" className={`nav-link step-2 ${window.location.pathname === "/" ? "activado" : ""} ${color && "bg_nav_a"}`}>Inicio</Link>
+                                <a href="#inicio" className={`nav-link step-2  ${color && "bg_nav_a"}`}>Inicio</a>
                             </li>
                             <li className="nav-item px-lg-3">
                                 <a 
@@ -82,7 +81,7 @@ export const Nav = () => {
                                 </a>
                             </li>
                             <li className="nav-item px-lg-3">
-                                <Link to="/contacto" className={`nav-link step-2 ${window.location.pathname === "/contacto" ? "activado" : ""} ${color && "bg_nav_a"}`}>Contacto</Link>
+                                <a href="#contacto" className={`nav-link step-2 ${color && "bg_nav_a"}`}>Contacto</a>
                             </li>
                         </ul>
                     </div>
