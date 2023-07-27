@@ -32,7 +32,7 @@ export const Nav = () => {
                 <div className="container-xxl h-100 d-flex ">
 
                     <a className="navbar-brand p-0" href="#inicio">
-                        <img className="" src={!color ? LogoLight : LogoDark} alt="Logo EBG" />
+                        <img className="animate__fadeInLeft animate__animated" src={!color ? LogoLight : LogoDark} alt="Logo EBG" />
                     </a>
 
                     {

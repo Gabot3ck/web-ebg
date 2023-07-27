@@ -14,7 +14,7 @@ export const HeaderHome = () => {
                 <source src={Video} type="video/mp4"/>
             </video>
             <div className="header_home mx-auto d-flex justify-content-center" >
-                <img className="" src={ Logo } alt="Logotipo EBG Ingeniería y Construcción" />
+                <img className="animate__animated animate__fadeInUp animate__delay-1s" src={ Logo } alt="Logotipo EBG Ingeniería y Construcción" />
             </div>
             
         </header>
