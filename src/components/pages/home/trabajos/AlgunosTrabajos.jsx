@@ -88,27 +88,26 @@ export const AlgunosTrabajos = () => {
                         foto4={ vitacura4 }
                     >
                         {<>
-                            <p className="mb-3 text_justify" >Construcción del  "Centro de Seguridad Comunitaria Unidad Vecinal N°1" en la comuna de La Reina.</p>
+                            <p className="mb-3 text_justify" >Construcción de bóvedas y cámaras de redes eléctricas de baja y mediana tensión</p>
                             <p className="mb-2 text_justify">
                                 <i className="bi bi-geo-alt-fill"></i>
-                                <span className="fw-semibold " > Lugar: </span>Dirección
+                                <span className="fw-semibold " > Lugar: </span>Providencia, Santiago de Chile, RM.
                             </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
-                                <span className="fw-semibold " > Fecha de inicio: </span>10 diciembre 2022.
+                                <span className="fw-semibold " > Fecha de inicio: </span>10 noviembre 2020.
                             </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
-                                <span className="fw-semibold " > Fecha de término: </span>25 junio 2023.
+                                <span className="fw-semibold " > Fecha de término: </span>18 diciembre 2020.
                             </p>
                             <p className="mb-2">
                                 <GoContainer className="" />
-                                <span className="fw-semibold "> m<sup>2</sup>: </span>  100  m<sup>2.</sup>
+                                <span className="fw-semibold "> m<sup>2</sup>: </span>  180  m<sup>2.</sup>
                             </p>
                             <p className="mb-2 text_justify">
                                 <IoConstruct className="" />
-                                <span className="fw-semibold " > Actividades:</span> Mejoramiento de suelo, fundaciones, carpintería metálica, ventanas termopanel, tabiquería,
-                                piso fotolaminado. Instalaciones eléctricas, sanitarias, climatización. Revestimiento exterior, terraza, pintura, gráficas y paisajismo.
+                                <span className="fw-semibold " > Actividades:</span> Calicatas, demolición, canalización,cruce y reposición de calzada. Construcción de cámara y bóveda.
                             </p>
                         </>}
                     </ModalProyectos>

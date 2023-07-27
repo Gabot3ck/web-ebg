@@ -15,13 +15,13 @@ export const Home = () => {
     
     return(
         <>
-            <Nav/>
-            <HeaderHome/>
-            <QueHacemos/>
-            <DatosEstadisticos/>
-            <PorQueNosotros/>
-            <NuestrosServicios/>
-            <AlgunosTrabajos/>
+            <Nav />
+            <HeaderHome />
+            <QueHacemos />
+            <DatosEstadisticos />
+            <PorQueNosotros />
+            <NuestrosServicios />
+            <AlgunosTrabajos />
             <Clientes />
             <Contacto />
             <Footer />

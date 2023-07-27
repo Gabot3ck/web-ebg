@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { LinkPrimary } from "../../components/buttons/LinkPrimary";
 import { EnlacesCarrusel } from "./EnlacesCarrusel";
 import consultoria from "../../assets/images/carrusel_servicios/consultoria.jpg";
 import obrasCiviles from "../../assets/images/carrusel_servicios/obras-civiles.jpg";
@@ -56,11 +55,6 @@ export const CarruselServicios = () => {
                                 <li>Obras Civiles Sanitarias</li>
                                 <li>Obras Civiles Industriales</li>
                             </p>
-                            
-                            <LinkPrimary 
-                                link='/oocc'
-                                title='Leer más'
-                            />
                         </div>
                     </div>
                     
@@ -77,10 +71,6 @@ export const CarruselServicios = () => {
                                 <li>Restauraciones</li>
                                 <li>Habilitación de oficinas</li>
                             </p>
-                            <LinkPrimary 
-                                link='/remodelaciones'
-                                title='Leer más'
-                            />
                         </div>
                     </div>
                     
@@ -96,10 +86,6 @@ export const CarruselServicios = () => {
                                 <li>Obras de estructuras modulares</li>
                                 <li>Construcción de galpones</li>
                             </p>
-                            <LinkPrimary 
-                                link='/obras-industriales'
-                                title='Leer más'
-                            />
                         </div>
                     </div>
                     
@@ -112,10 +98,6 @@ export const CarruselServicios = () => {
                             <br /><br />
                             Confía en nosotros para llevar tus proyectos al siguiente nivel.
                             </p>
-                            <LinkPrimary 
-                                link='/asesoria'
-                                title='Leer más'
-                            />
                         </div>
                     </div>
 
