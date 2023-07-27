@@ -60,7 +60,7 @@ export const Nav = () => {
                             <li className="nav-item px-lg-3">
                                 <a 
                                     href="#nosotros" 
-                                    className={`nav-link step-2`}
+                                    className={`nav-link step-2 ${color && "bg_nav_a"}`}
                                 >
                                     Nosotros
                                 </a>
@@ -68,7 +68,7 @@ export const Nav = () => {
                             <li className="nav-item px-lg-3">
                                 <a 
                                     href="#servicios" 
-                                    className={`nav-link step-2`}
+                                    className={`nav-link step-2 ${color && "bg_nav_a"}`}
                                 >
                                     Servicios
                                 </a>
@@ -76,7 +76,7 @@ export const Nav = () => {
                             <li className="nav-item px-lg-3">
                                 <a 
                                     href="#proyectos" 
-                                    className={`nav-link step-2`}
+                                    className={`nav-link step-2 ${color && "bg_nav_a"}`}
                                 >
                                     Proyectos
                                 </a>
