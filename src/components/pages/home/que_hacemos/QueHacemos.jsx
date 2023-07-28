@@ -19,7 +19,7 @@ export const QueHacemos = () => {
 			<main 
 				ref={ref}
 				className={`main_queHacemos mx-auto  d-flex flex-column 
-				${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''} `}
+				${inView ? 'animate__animated animate__fadeInUp' : ''} `}
 			>
 				<h2 className="text-center text-lg-start py-4 px-4 px-xxl-0 step-7">¿QUE HACEMOS?</h2>
 

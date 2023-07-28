@@ -15,12 +15,10 @@ export const Contacto = () => {
     <div
       ref={ ref } 
       className={`mx-auto py-3 wrapper_contacto d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center
-      ${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}`}
+      ${inView ? 'animate__animated animate__fadeInUp' : ''}`}
     >
       <div
-        
-        className={ `contacto_formulario d-flex flex-column justify-content-center
-        ${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}` }
+        className={ `contacto_formulario d-flex flex-column justify-content-center` }
       >
         <p className="" >
         Llame o envíe nuestro formulario en línea para solicitar un presupuesto o para preguntas generales, dudas o consultas. <br /> ¡Esperamos poder servirle!

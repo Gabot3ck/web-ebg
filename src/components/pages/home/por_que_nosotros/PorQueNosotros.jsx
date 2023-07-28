@@ -22,7 +22,7 @@ export const PorQueNosotros = () => {
 
             <div 
                 ref={ref}
-                className={`container ${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}`}
+                className={`container ${inView ? 'animate__animated animate__fadeInUp' : ''}`}
             >
                 <div className="row px-5 px-xxl-0 row-cols-1 row-cols-md-2">
                     <CardStandares

@@ -25,7 +25,7 @@ export const Clientes = () => {
             <div
                 ref={ ref }
                 className={`clientes_logos d-flex justify-content-between mx-auto
-                ${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}
+                ${inView ? 'animate__animated animate__fadeInUp' : ''}
                 `}
             >
                     <img src={ dominion } alt="Logo de Dominion" className="img_1"/>
