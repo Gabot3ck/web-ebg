@@ -12,10 +12,12 @@
 .clientes_logos img{
     width: 14%;
 }
-.clientes_logos .img_1,
-.clientes_logos .img_3{
+.clientes_logos .img_1{
     width: 18%;
 }
-.clientes_logos .img_4{
+.clientes_logos .img_2{
     width: 11%;
+}
+.clientes_logos .img_3{
+    width: 10%;
 }

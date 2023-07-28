@@ -85,7 +85,7 @@ export const AlgunosTrabajos = () => {
                         img={ vitacura } 
                         tituloCard="Proyecto "
                         titulo="Proyecto OOCC"
-                        area="OOCC"
+                        area="Obras civiles"
                         foto1={ vitacura1 }
                         foto2={ vitacura2 }
                         foto3={ vitacura3 }
