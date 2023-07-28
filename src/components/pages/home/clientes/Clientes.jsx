@@ -1,3 +1,4 @@
+import { useInView } from 'react-intersection-observer';
 import dominion from "../../../../assets/images/clientes/dominion.svg";
 import enel from "../../../../assets/images/clientes/enel.svg";
 import engie from "../../../../assets/images/clientes/engie.svg";
@@ -7,13 +8,26 @@ import "./Clientes.css";
 
 export const Clientes = () => {
 
+    const [ref, inView] = useInView({
+        triggerOnce: true, // Para que la animación se ejecute solo una vez
+        threshold: 0.05, // Porcentaje de intersección necesario para activar la animación (0.5 es 50%)
+    });
+
 
     return (<>
+
+
+
         <section className="wrapper_clientes w-100 mb-5">
             <div className="clientes_texto mx-auto mb-4">
                 <h2 className="text-center step-7">Nuestros Clientes</h2>
             </div>
-            <div className="clientes_logos d-flex justify-content-between mx-auto">
+            <div
+                ref={ ref }
+                className={`clientes_logos d-flex justify-content-between mx-auto
+                ${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}
+                `}
+            >
                     <img src={ dominion } alt="Logo de Dominion" className="img_1"/>
                     <img src={ enel } alt="Logo de ENEL" />
                     <img src={ engie } alt="Logo de Engie" className="img_3" />

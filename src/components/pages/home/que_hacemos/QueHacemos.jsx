@@ -6,7 +6,7 @@ export const QueHacemos = () => {
 
 	const [ref, inView] = useInView({
     triggerOnce: true, // Para que la animación se ejecute solo una vez
-    threshold: 0.1, // Porcentaje de intersección necesario para activar la animación (0.5 es 50%)
+    threshold: 0.05, // Porcentaje de intersección necesario para activar la animación (0.5 es 50%)
   });
 
 

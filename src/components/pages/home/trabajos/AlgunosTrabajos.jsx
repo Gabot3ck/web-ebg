@@ -27,6 +27,7 @@ import "./AlgunosTrabajos.css";
 
 
 export const AlgunosTrabajos = () => {
+
     return (<>
         <section className="w-100 wrapper_trabajos mb-5 " id="proyectos">
             <div className="trabajos_texto mx-auto mb-4 mb-lg-0">
@@ -36,7 +37,10 @@ export const AlgunosTrabajos = () => {
                 </p>
             </div>
             
-            <main className="mx-auto px-2 w-100  d-flex flex-column flex-lg-row align-items-center justify-content-evenly wrapper_trabajos_card">
+            <main
+                
+                className={`mx-auto px-2 w-100  d-flex flex-column flex-lg-row align-items-center justify-content-evenly wrapper_trabajos_card
+                `}>
 
                 <section className="trabajos_card px-2">
                     <ModalProyectos 

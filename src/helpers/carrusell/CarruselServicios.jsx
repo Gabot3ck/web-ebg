@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useInView } from 'react-intersection-observer';
 import { EnlacesCarrusel } from "./EnlacesCarrusel";
 import consultoria from "../../assets/images/carrusel_servicios/consultoria.jpg";
 import obrasCiviles from "../../assets/images/carrusel_servicios/obras-civiles.jpg";
@@ -18,9 +19,17 @@ export const CarruselServicios = () => {
         setIdEnlace(id)
     }
 
+    const [ref, inView] = useInView({
+        triggerOnce: true, // Para que la animación se ejecute solo una vez
+        threshold: 0.05, // Porcentaje de intersección necesario para activar la animación (0.5 es 50%)
+    });
+
 
     return (<>
-        <section className="mx-auto wrapper_carrusel_servicios">
+        <section 
+            ref={ ref }
+            className={`mx-auto wrapper_carrusel_servicios ${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}`}
+        >
             <div className="py-3 w-100 d-flex flex-column flex-lg-row justify-content-evenly  container-servicios-enlaces ">
                 {
                     arrayId.map( (el,index) => (

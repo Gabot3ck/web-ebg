@@ -1,9 +1,16 @@
+import { useInView } from 'react-intersection-observer';
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { FaGlobeAmericas, FaUsers, FaAward } from "react-icons/fa";
 import { CardStandares } from "../../../../helpers/cards/CardStandares";
 import "./PorQueNosotros.css";
 
 export const PorQueNosotros = () => {
+
+    const [ref, inView] = useInView({
+        triggerOnce: true, // Para que la animación se ejecute solo una vez
+        threshold: 0.05, // Porcentaje de intersección necesario para activar la animación (0.5 es 50%)
+    });
+    
     return (<>
         <section className="w-100 wrapper_porque_nosotros pt-5 pb-3 py-xl-5">
             <div className="porque_nosotros_texto mx-auto">
@@ -13,7 +20,10 @@ export const PorQueNosotros = () => {
                 </p>
             </div>
 
-            <div className="container">
+            <div 
+                ref={ref}
+                className={`container ${inView ? 'animate__animated animate__fadeInUp animate__delay-1s' : ''}`}
+            >
                 <div className="row px-5 px-xxl-0 row-cols-1 row-cols-md-2">
                     <CardStandares
                         icono={ <FaGlobeAmericas /> } 
