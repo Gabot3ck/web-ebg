@@ -30,8 +30,8 @@ export const QueHacemos = () => {
 					<div 
 						className={ `order-1 order-lg-0` } 
 					>
-						<p className="step-3">En <strong>EBG Chile</strong>, como expertos en <strong>Ingeniería y Construcción</strong> nos dedicamos profesionalmente a transformar tus ideas en realidades tangibles, ofrecemos una amplia gama de servicios para cubrir todas tus necesidades en el campo de la edificación.</p><br />
-						<p className="step-3">Con nuestras habilidades en <strong>obras civiles</strong>, <strong>construcción</strong>, <strong>remodelación</strong> y <strong>asesoría</strong>, estamos comprometidos en superar tus expectativas y entregar resultados excepcionales. </p> <br />
+						<p className="step-3">En <strong>EBG</strong>, como expertos en <strong>Ingeniería y Construcción</strong> nos dedicamos profesionalmente a transformar tus ideas en realidades tangibles, somos especialistas en la ejecución de proyectos de <strong>Obras Civiles</strong>, <strong>Construcción</strong>, <strong>Restauración</strong> y <strong>Remodelación.</strong></p><br />
+						<p className="step-3">Nuestro nivel de exigencia y compromiso nos capacita para afrontar cualquier proyecto, convirtiéndonos en el equipo idóneo para este tipo de construcciones.</p> <br />
 						<p className="step-3"> Contáctanos hoy mismo y déjanos ser tu socio confiable.</p>
 					</div>
 
