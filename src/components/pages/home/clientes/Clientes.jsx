@@ -31,7 +31,7 @@ export const Clientes = () => {
                 <div className='d-flex justify-content-between mx-auto' >
                     <img src={ nuevoPudahuel } alt="Logo de Nuevo Pudahuel" className="img_1"/>
                     <img src={ dominion } alt="Logo de Dominion" className="img_1"/>
-                    <img src={ muni } alt="Logo de Municipalidad" />
+                    <img src={ muni } alt="Logo de Municipalidad de Santiago de Chile" />
                     <img src={ enel } alt="Logo de ENEL" />
                 </div>
 
@@ -39,7 +39,7 @@ export const Clientes = () => {
                     <img src={ dynoNobel } alt="Logo de Dyno Nobel" className="img_2"/>
                     <img src={ engie } alt="Logo de Engie" className="img_1" />
                     <img src={ metro } alt="Logo de Metro" className="img_3"/>
-                    <img src={ avsa } alt="Logo de Dyno Nobel" className="img_1"/>
+                    <img src={ avsa } alt="Logo de AVSA Grupo Inmobiliaria" className="img_4" />
                 </div>
             </div>
         </section>
