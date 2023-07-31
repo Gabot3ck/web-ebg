@@ -1,3 +1,8 @@
+.container_contact{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs'  preserveAspectRatio='none' viewBox='0 0 1440 760'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='760' x='0' y='0' fill='rgba(241%2c 243%2c 241%2c 1)'%3e%3c/rect%3e%3cpath d='M1440 0L1438.7 0L1440 136.51z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1438.7 0L1440 136.51L1440 350.17999999999995L781.0300000000001 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M781.0300000000001 0L1440 350.17999999999995L1440 564.8799999999999L750.2600000000001 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M750.2600000000001 0L1440 564.8799999999999L1440 596.5999999999999L508.2400000000001 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 760L16.51 760L0 435.11z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 435.11L16.51 760L759.63 760L0 235.52z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 235.51999999999998L759.63 760L1159.3600000000001 760L0 179.30999999999997z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 179.30999999999995L1159.3600000000001 760L1347.6200000000001 760L0 80.23999999999995z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='760' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container_contacto{
     min-height: 100vh;
     background-color: var(--color-fondo);
@@ -14,7 +19,7 @@
     text-transform: uppercase;
 }
 .input{
-    border: 2px solid  var(--color-border);
+    border: 2px solid  var(--color-green);
     background-color: transparent;
 }
 .input:focus, 
@@ -64,7 +69,7 @@
 .fa-phone-alt,
 .fa-globe,
 .fa-map-marker-alt{
-    color: var(--color-principal);
+    color: var(--color-green);
 }
 .wrapper_mapa{
     height: 350px;
