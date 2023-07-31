@@ -2,7 +2,7 @@ import { MdCalendarMonth } from "react-icons/md";
 import { IoConstruct } from "react-icons/io5";
 import { GoContainer } from "react-icons/go";
 import LaReina from "../../../../assets/images/proyectos/la_reina/card_lareina.jpg";
-import vitacura from "../../../../assets/images/proyectos/vitacura/portada1_card.jpg";
+import vitacura from "../../../../assets/images/proyectos/vitacura/aeropuerto_card.jpeg";
 import OficinaEnel from "../../../../assets/images/proyectos/edificio_enel/card_portada_enel.jpg";
 import Dyno from "../../../../assets/images/proyectos/dyno/card_portada_dyno.jpg";
 import foto1 from "../../../../assets/images/proyectos/la_reina/portada1_modal.jpg";
@@ -17,10 +17,10 @@ import dyno1 from "../../../../assets/images/proyectos/dyno/modal_dyno1.jpg";
 import dyno2 from "../../../../assets/images/proyectos/dyno/modal_dyno2.jpg";
 import dyno3 from "../../../../assets/images/proyectos/dyno/modal_dyno3.jpg";
 import dyno4 from "../../../../assets/images/proyectos/dyno/modal_dyno4.jpg";
-import vitacura1 from "../../../../assets/images/proyectos/vitacura/portada1_modal.jpg";
+import vitacura1 from "../../../../assets/images/proyectos/vitacura/aeropuerto2-color.jpeg";
 import vitacura2 from "../../../../assets/images/proyectos/vitacura/portada2_modal.jpg";
 import vitacura3 from "../../../../assets/images/proyectos/vitacura/portada3_modal.jpg";
-import vitacura4 from "../../../../assets/images/proyectos/vitacura/portada4_modal.jpg";
+import vitacura4 from "../../../../assets/images/proyectos/vitacura/aeropuerto3-color.jpeg";
 import { ModalProyectos } from "../../../../helpers/modal_proyectos/ModalProyectos";
 import "./AlgunosTrabajos.css";
 
@@ -83,7 +83,7 @@ export const AlgunosTrabajos = () => {
                 <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={ vitacura } 
-                        tituloCard="Proyecto "
+                        tituloCard="Aeropuerto Internacional A. Merino Benitez"
                         titulo="Proyecto OOCC"
                         area="Obras civiles"
                         foto1={ vitacura1 }
@@ -92,10 +92,10 @@ export const AlgunosTrabajos = () => {
                         foto4={ vitacura4 }
                     >
                         {<>
-                            <p className="mb-3 text_justify" >Construcción de bóvedas y cámaras de redes eléctricas de baja y mediana tensión</p>
+                            <p className="mb-3 text_justify" >Construcción de bóvedas y cámaras de redes eléctricas de baja y mediana tensión para la empresa Nuevo Pudahuel.</p>
                             <p className="mb-2 text_justify">
                                 <i className="bi bi-geo-alt-fill"></i>
-                                <span className="fw-semibold " > Lugar: </span>Providencia, Santiago de Chile, RM.
+                                <span className="fw-semibold " > Lugar: </span>Pudahel, Santiago de Chile, RM.
                             </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
