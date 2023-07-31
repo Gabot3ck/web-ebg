@@ -1,13 +1,13 @@
 import { MdCalendarMonth } from "react-icons/md";
 import { IoConstruct } from "react-icons/io5";
 import { GoContainer } from "react-icons/go";
-import LaReina from "../../../../assets/images/proyectos/la_reina/portada1_card.jpg";
+import LaReina from "../../../../assets/images/proyectos/la_reina/card_lareina.jpg";
 import vitacura from "../../../../assets/images/proyectos/vitacura/portada1_card.jpg";
 import OficinaEnel from "../../../../assets/images/proyectos/edificio_enel/card_portada_enel.jpg";
 import Dyno from "../../../../assets/images/proyectos/dyno/card_portada_dyno.jpg";
 import foto1 from "../../../../assets/images/proyectos/la_reina/portada1_modal.jpg";
 import foto2 from "../../../../assets/images/proyectos/la_reina/proceso1_modal.jpg";
-import foto3 from "../../../../assets/images/proyectos/la_reina/interior1_modal.jpg";
+import foto3 from "../../../../assets/images/proyectos/la_reina/modal3.jpg";
 import foto4 from "../../../../assets/images/proyectos/la_reina/portada2_modal.jpg";
 import enel1 from "../../../../assets/images/proyectos/edificio_enel/modal_portada_enel.jpg";
 import enel2 from "../../../../assets/images/proyectos/edificio_enel/modal_enel2.jpg";
@@ -48,9 +48,9 @@ export const AlgunosTrabajos = () => {
                         tituloCard="Caseta Municipal La Reina"
                         titulo="Caseta Municipal"
                         area="Edificación"
-                        foto1={ foto1 }
-                        foto2={ foto2 }
-                        foto3={ foto3 }
+                        foto1={ foto3 }
+                        foto2={ foto1 }
+                        foto3={ foto2 }
                         foto4={ foto4 }
                     >
                         {<>
