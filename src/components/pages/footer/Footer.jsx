@@ -38,7 +38,7 @@ export const Footer = () => {
                     <p className="step-1">&copy; Copyright { year } EBG Ingeniería y Construcción v1.1.0 </p>
                 </div>
                 
-                <p className="autor step-1">Desarrollado por <a href="https://www.linkedin.com/in/gabriel-castillo-frontend/" target="_blank" rel="noopener noreferrer">Gabriel Castillo</a></p>
+                <p className="autor step-1">Desarrollado por <a href="https://www.linkedin.com/in/gabriel-castillo-developer/" target="_blank" rel="noopener noreferrer">Gabriel Castillo</a></p>
             </div>
         </footer>
         
