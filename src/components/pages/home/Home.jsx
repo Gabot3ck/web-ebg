@@ -18,11 +18,11 @@ export const Home = () => {
             <Nav />
             <HeaderHome />
             <QueHacemos />
-            <DatosEstadisticos />
             <PorQueNosotros />
             <NuestrosServicios />
             <AlgunosTrabajos />
             <Clientes />
+            <DatosEstadisticos />
             <Contacto />
             <Footer />
             <BtnWhatsApp />

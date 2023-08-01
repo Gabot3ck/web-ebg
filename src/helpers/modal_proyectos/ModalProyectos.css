@@ -9,7 +9,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 60px;
+    bottom: 70px;
     margin: auto;
     display: none;
     color: var(--color-fondo);
@@ -18,11 +18,11 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 30px;
+    bottom: 40px;
     z-index: 500;
     margin: auto;
     display: none;
-    color: var(--color-principal);
+    color: var(--color-logo);
     font-weight: 500;
     font-size: .83rem;
     text-transform: uppercase;

@@ -1,4 +1,3 @@
-import { LinkSecondary } from "../../components/buttons/LinkSecondary";
 import { CarruselModalProyectos } from "../carrusell/CarruselModalProyectos";
 import "./ModalProyectos.css";
 
@@ -67,10 +66,6 @@ export const ModalProyectos = ({
                             <section className="textos_modal mb-5" >
                                 { children }
                             </section>
-                            <LinkSecondary 
-                                link='/'
-                                title='más detalles'
-                            />
                         </div>
                     </div>
                 </div>

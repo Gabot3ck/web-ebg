@@ -37,7 +37,7 @@
     align-items: center;
     justify-content: space-around;
     color: var(--color-fondo);
-    background-color: var(--color-green);
+    background-color: var(--color-principal);
 }
 .wrapper_carrusel_servicios .carousel-item .caption .active{
     text-decoration: none !important;

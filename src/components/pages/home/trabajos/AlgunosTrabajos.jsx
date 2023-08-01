@@ -99,19 +99,19 @@ export const AlgunosTrabajos = () => {
                             </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
-                                <span className="fw-semibold " > Fecha de inicio: </span>10 noviembre 2020.
+                                <span className="fw-semibold " > Fecha de inicio: </span>15 mayo 2017.
                             </p>
                             <p className="mb-2">
                                 <MdCalendarMonth className="" />
-                                <span className="fw-semibold " > Fecha de término: </span>18 diciembre 2020.
+                                <span className="fw-semibold " > Fecha de término: </span>15 setiembre 2017.
                             </p>
                             <p className="mb-2">
                                 <GoContainer className="" />
-                                <span className="fw-semibold "> m<sup>2</sup>: </span>  180  m<sup>2.</sup>
+                                <span className="fw-semibold "> m<sup>2</sup>: </span>  5300  m<sup>2.</sup>
                             </p>
                             <p className="mb-2 text_justify">
                                 <IoConstruct className="" />
-                                <span className="fw-semibold " > Actividades:</span> Calicatas, demolición, canalización,cruce y reposición de calzada. Construcción de cámara y bóveda.
+                                <span className="fw-semibold " > Actividades:</span> Calicatas, demolición, canalización y construcción de cámaras y bóvedas de redes eléctricas.
                             </p>
                         </>}
                     </ModalProyectos>

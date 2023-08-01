@@ -36,7 +36,7 @@ export const CarruselServicios = () => {
                         <EnlacesCarrusel 
                             key={ el }
                             index={ index }
-                            className={`enlace-servicios my-2 my-lg-0 ${idEnlace === el ? "icon_activo" : ""}`}
+                            className={`enlace-servicios step-3 my-2 ${idEnlace === el ? "icon_activo" : ""}`}
                             onClick={ () => cambiarEnlace(el) }
                         />
                     ))
@@ -57,8 +57,7 @@ export const CarruselServicios = () => {
                         <div className="caption texto-servicios py-3 py-lg-0 ">
                             <h3 className="">Obras Civiles</h3>
                             <p className="step-3 mb-3 mb-lg-0">
-                            Con sólida trayectoria en <strong>obras civiles</strong> , ofrecemos soluciones confiables y de calidad que transforman espacios, superando expectativas en cada proyecto. Descubre cómo nuestra experiencia puede impulsar tu éxito en la industria de la construcción, siendo nuestras especialidades:
-
+                                Con sólida trayectoria en <strong>obras civiles</strong> , ofrecemos soluciones confiables y de calidad que transforman espacios, superando expectativas en cada proyecto. Descubre cómo nuestra experiencia puede impulsar tu éxito en la industria de la construcción, siendo nuestras especialidades:
                                 <li className="mt-3" >Obras Civiles Eléctricas</li>
                                 <li>Obras Civiles Urbanas</li>
                                 <li>Obras Civiles Sanitarias</li>

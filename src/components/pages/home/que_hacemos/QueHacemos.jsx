@@ -43,7 +43,7 @@ export const QueHacemos = () => {
 					</div>
 				</section>
 				
-				<a href='#contacto' className="btn btn-success mt-4 btn_contactar  mx-auto ms-lg-4 step-3">Contactar</a>
+				<a href='#contacto' className="btn mt-4 btn_contactar  mx-auto ms-lg-4 step-3">Contactar</a>
 			</main>
 
 		</section>

@@ -1,15 +1,3 @@
-*{
-    --color-principal: #65C400;
-    --color-secundario: #DDDEDC;
-    --color-principalGlass: #65c4005b;
-    --color-secundarioGlass: #dddedccc;
-    --color-texto: #383838;
-    --color-textoGlass: #383838a9;
-    --color-border: #dee2e6;
-    --color-placeholder: #b4b4b4;
-    --color-fondo: #f8f9fa;
-    --color-parrafos: #515e72;
-}
 .grid_cards_container  .wrapper,
 .grid_cards_container .wrapper .wrapper_child{
     position: relative;

@@ -7,6 +7,7 @@ import muni from "../../../../assets/images/clientes/muni_santiago.svg";
 import nuevoPudahuel from "../../../../assets/images/clientes/nuevo-pudahuel.svg";
 import dynoNobel from "../../../../assets/images/clientes/dyno-nobel.svg";
 import avsa from "../../../../assets/images/clientes/avsa.svg";
+import reina from "../../../../assets/images/clientes/muni_la_reina.svg";
 import "./Clientes.css";
 
 export const Clientes = () => {
@@ -31,6 +32,7 @@ export const Clientes = () => {
                 <div className='d-flex justify-content-between mx-auto' >
                     <img src={ nuevoPudahuel } alt="Logo de Nuevo Pudahuel" className="img_1"/>
                     <img src={ dominion } alt="Logo de Dominion" className="img_1"/>
+                    <img src={ reina } alt="Logo de Dominion" className="img_5" />
                     <img src={ muni } alt="Logo de Municipalidad de Santiago de Chile" />
                     <img src={ enel } alt="Logo de ENEL" />
                 </div>

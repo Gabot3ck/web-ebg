@@ -19,7 +19,7 @@
     text-transform: uppercase;
 }
 .input{
-    border: 2px solid  var(--color-green);
+    border: 2px solid  var(--color-principal);
     background-color: transparent;
 }
 .input:focus, 
@@ -69,7 +69,7 @@
 .fa-phone-alt,
 .fa-globe,
 .fa-map-marker-alt{
-    color: var(--color-green);
+    color: var(--color-principal);
 }
 .wrapper_mapa{
     height: 350px;

@@ -30,6 +30,14 @@
 }
 .btn_contactar{
     width: 240px;
+    color: antiquewhite;
+    font-weight: 500;
+    background-color: var(--color-principal);
+    transition: all .3s ease;
+}
+.btn_contactar:hover{
+    color: antiquewhite;
+    background-color: var(--color-green);
 }
 
 
