@@ -8,16 +8,16 @@ export const CarruselModalProyectos = ({ foto1, foto2, foto3, foto4 }) => {
             
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={foto1} className="d-block w-100" alt="..."/>
+                        <img src={foto1} className="d-block w-100" alt="Imagen de proyecto"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={foto2} className="d-block w-100" alt="..."/>
+                        <img src={foto2} className="d-block w-100" alt="Imagen de proyecto"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={foto3} className="d-block w-100" alt="..."/>
+                        <img src={foto3} className="d-block w-100" alt="Imagen de proyecto"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={foto4} className="d-block w-100" alt="..."/>
+                        <img src={foto4} className="d-block w-100" alt="Imagen de proyecto"/>
                     </div>
                 </div>
 

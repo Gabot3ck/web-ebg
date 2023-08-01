@@ -27,6 +27,7 @@ export const Footer = () => {
                                 href="https://www.linkedin.com/company/ebg-chile/mycompany/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
+                                aria-label="Enlace al LinkedIn de EBG Ingeniería y Construcción"
                             >
                                 <i className="bi bi-linkedin"></i>
                             </a>
@@ -38,7 +39,17 @@ export const Footer = () => {
                     <p className="step-1">&copy; Copyright { year } EBG Ingeniería y Construcción v1.1.0 </p>
                 </div>
                 
-                <p className="autor step-1">Desarrollado por <a href="https://www.linkedin.com/in/gabriel-castillo-developer/" target="_blank" rel="noopener noreferrer">Gabriel Castillo</a></p>
+                <p className="autor step-1">
+                    Desarrollado por 
+                    <a 
+                        href="https://www.linkedin.com/in/gabriel-castillo-developer/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label="Enlace al autor de la página web"
+                    >
+                        Gabriel Castillo
+                    </a>
+                </p>
             </div>
         </footer>
         
