@@ -1,22 +1,9 @@
-*{
-    --color-principal: #65C400;
-    --color-secundario: #DDDEDC;
-    --color-principalGlass: #65c4005b;
-    --color-secundarioGlass: #dddedccc;
-    --color-texto: #383838;
-    --color-textoGlass: #383838a9;
-    --color-border: #dee2e6;
-    --color-placeholder: #b4b4b4;
-    --color-fondo: #f8f9fa;
-    --color-parrafos: #515e72;
-    --color-footer: #1f1f1f;
-}
 .btn-whatsapp {
     position: fixed;
     right: 20px;
     bottom: 20px;
     z-index: 999;
-    border: 2px solid var(--color-principal);
+    border: 2px solid var(--color-logo);
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -25,7 +12,7 @@
 }
 .bi-whatsapp {
     font-size: 2.8rem;
-    color: var(--color-principal); 
+    color: var(--color-logo); 
 }
 .btn-whatsapp .caja{
     position: fixed;
