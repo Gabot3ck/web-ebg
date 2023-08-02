@@ -19,7 +19,7 @@
     text-transform: uppercase;
 }
 .input{
-    border: 2px solid  var(--color-principal);
+    border: 2px solid  var(--color-border);
     background-color: transparent;
 }
 .input:focus, 

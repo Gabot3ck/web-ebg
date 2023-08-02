@@ -40,8 +40,7 @@ export const Footer = () => {
                 </div>
                 
                 <p className="autor step-1">
-                    Desarrollado por 
-                    <a 
+                    Desarrollado por <a 
                         href="https://www.linkedin.com/in/gabriel-castillo-developer/" 
                         target="_blank" 
                         rel="noopener noreferrer"
