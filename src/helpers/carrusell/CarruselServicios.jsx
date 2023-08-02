@@ -58,11 +58,13 @@ export const CarruselServicios = () => {
                             <h3 className="">Obras Civiles</h3>
                             <p className="step-3 mb-3 mb-lg-0">
                                 Con sólida trayectoria en <strong>obras civiles</strong> , ofrecemos soluciones confiables y de calidad que transforman espacios, superando expectativas en cada proyecto. Descubre cómo nuestra experiencia puede impulsar tu éxito en la industria de la construcción, siendo nuestras especialidades:
+                            </p>
+                            <ul className="step-3 m-0 align-self-start mx-auto w-75 mb-4" >
                                 <li className="mt-3" >Obras Civiles Eléctricas</li>
                                 <li>Obras Civiles Urbanas</li>
                                 <li>Obras Civiles Sanitarias</li>
                                 <li>Obras Civiles Industriales</li>
-                            </p>
+                            </ul>
                         </div>
                     </div>
                     
@@ -74,11 +76,13 @@ export const CarruselServicios = () => {
                                 En el ámbito de edificaión y remodelaciones, somos líderes en brindar soluciones innovadoras y personalizadas. Nuestra experiencia en ingeniería y construcción se combina con una visión estética, te ayudaremos a renovar tus espacios para impulsar la productividad y reflejar la identidad de tu empresa. 
                                 <br /><br />
                                 Nuestras especialidedades son:
+                            </p>
+                            <ul className="step-3 m-0 align-self-start mx-auto w-75 mb-4" >
                                 <li className="mt-3" >Construcciones habitacionales</li>
                                 <li>Remodelaciones</li>
                                 <li>Restauraciones</li>
                                 <li>Habilitación de oficinas</li>
-                            </p>
+                            </ul>
                         </div>
                     </div>
                     
@@ -90,10 +94,12 @@ export const CarruselServicios = () => {
                                 En la construcción de obras industriales, somos líderes en innovación y eficiencia. Nuestra experiencia en ingeniería y construcción se combina para crear estructuras robustas y versátiles, adaptadas a tus necesidades específicas. Confía en nosotros para edificar soluciones sólidas y vanguardistas
                                 <br /><br />
                                 Nuestras especialidedades son:
+                            </p>
+                            <ul className="step-3 m-0 align-self-start mx-auto w-75 mb-4" >
                                 <li className="mt-3" >Obras de estructuras metálicas</li>
                                 <li>Obras de estructuras modulares</li>
                                 <li>Construcción de galpones</li>
-                            </p>
+                            </ul>
                         </div>
                     </div>
                     

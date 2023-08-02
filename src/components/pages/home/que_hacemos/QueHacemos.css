@@ -20,7 +20,7 @@
 }
 .main_queHacemos_texto p{
     font-weight: 500;
-    color: var(--color-parrafos);
+    color: var(--color-parrafos2);
     text-align: justify;
     line-height: 1.8;
 }

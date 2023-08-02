@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: var(--color-fondo);
     background-color: var(--color-principal);
 }
@@ -61,7 +61,6 @@
     width: 60%;
     border-radius: 3px;
 }
-
 .enlace-servicios{
     background-color: transparent;
 }

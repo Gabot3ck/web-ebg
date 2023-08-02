@@ -52,6 +52,7 @@ export const AlgunosTrabajos = () => {
                         foto2={ foto1 }
                         foto3={ foto2 }
                         foto4={ foto4 }
+                        alt='Proyecto de edificación Caseta Municipal La Reina'
                     >
                         {<>
                             <p className="mb-3 text_justify" >Construcción del  "Centro de Seguridad Comunitaria Unidad Vecinal N°1" en la comuna de La Reina.</p>
@@ -90,6 +91,7 @@ export const AlgunosTrabajos = () => {
                         foto2={ vitacura2 }
                         foto3={ vitacura3 }
                         foto4={ vitacura4 }
+                        alt='Construcción de cámaras y bóvedas de redes eléctricas de baja y mediana tensión'
                     >
                         {<>
                             <p className="mb-3 text_justify" >Construcción de bóvedas y cámaras de redes eléctricas de baja y mediana tensión para la empresa Nuevo Pudahuel.</p>
@@ -127,6 +129,7 @@ export const AlgunosTrabajos = () => {
                         foto2={ enel2 }
                         foto3={ enel3 }
                         foto4={ enel4 }
+                        alt='Remodelaciones y reparaciones de oficinas corporativas ENEL Chile'
                     >
                         {<>
                             <p className="mb-3 text_justify" >Reparación y remodelación de las oficinas corporativas en los piso 4, 9, 12, 13 y 16 del edifico principal de la empresa ENEL Chile.</p>
@@ -166,6 +169,7 @@ export const AlgunosTrabajos = () => {
                         foto2={ dyno2 }
                         foto3={ dyno3 }
                         foto4={ dyno4 }
+                        alt='Construcción modular y estructura metálica de una planta industrial Dyno Nobel'
                     >
                         {<>
                             <p className="mb-3 text_justify" >Construcción modular y estructura metálica de una planta industrial de fabricación y ensamblaje de explosivos mineros.</p>

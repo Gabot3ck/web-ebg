@@ -14,8 +14,7 @@ export const ModalProyectos = ({
     foto1, 
     foto2, 
     foto3, 
-    foto4,
-    link,}) => {
+    foto4 }) => {
 
 
 
