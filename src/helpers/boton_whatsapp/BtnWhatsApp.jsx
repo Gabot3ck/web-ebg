@@ -1,3 +1,4 @@
+import { BsWhatsapp } from "react-icons/bs";
 import "./BtnWhatsApp.css";
 
 export const BtnWhatsApp = () => {
@@ -8,8 +9,9 @@ export const BtnWhatsApp = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Enlace al WhatsApp de EBG Ingeniería y Construcción"
+                className="w-100 h-100 d-flex justify-content-center  align-items-center whatsapp"
             >
-                    <i className="bi bi-whatsapp"></i>
+                <BsWhatsapp />
             </a>
             <div className="caja d-flex justify-content-center"  >
                 <span>

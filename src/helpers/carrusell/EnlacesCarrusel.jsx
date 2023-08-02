@@ -1,3 +1,4 @@
+import { FaPersonDigging, FaBuilding, FaWarehouse, FaPaste } from "react-icons/fa6";
 import "./Carrusel.css";
 
 export const EnlacesCarrusel = ({  className, onClick, index }) => {
@@ -6,19 +7,19 @@ export const EnlacesCarrusel = ({  className, onClick, index }) => {
         
         switch (id) {
             case 0:{
-                let icon = "fa-solid fa-person-digging";
+                let icon = <FaPersonDigging />;
                 return icon;
                 }
             case 1:{
-                let icon = "far fa-building";
+                let icon = <FaBuilding />;
                 return icon;
             }
             case 2:{
-                let icon = "fas fa-warehouse";
+                let icon = <FaWarehouse />;
                 return icon;
             }
             case 3:{
-                let icon = "fas fa-paste";
+                let icon = <FaPaste />;
                 return icon;
             }
             default:{ 
@@ -62,7 +63,7 @@ export const EnlacesCarrusel = ({  className, onClick, index }) => {
                 data-bs-target="#myCarousel" 
                 data-bs-slide-to={ index }
                 onClick={ onClick }>
-                    <i className={ agregarIcon(index) } ></i>{ agregarTitulo(index) }
+                    { agregarIcon(index) } { agregarTitulo(index) }
             </button>
     </>)
 }

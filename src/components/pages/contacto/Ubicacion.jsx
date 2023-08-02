@@ -1,4 +1,6 @@
 
+import { BsEnvelopeAtFill, BsTelephoneFill, BsGlobe2 } from "react-icons/bs";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import "./Contacto.css"
 
 export const Ubicacion = () => {
@@ -13,15 +15,15 @@ export const Ubicacion = () => {
                 <div className="contacto d-flex flex-column">
                     <p className="h5 mb-3" >Información de contacto</p>
                     <div className="correo d-flex">
-                        <i className="fas fa-envelope me-2"></i>
+                        <span className="me-2 icon-contacto" > <BsEnvelopeAtFill /> </span> 
                         <p className="">contacto@ebgchile.cl</p>
                     </div>
                     <div className="fono d-flex">
-                        <i className="fas fa-phone-alt me-2"></i>
+                        <span className="me-2 icon-contacto" > <BsTelephoneFill /> </span> 
                         <p className="">{`+56 2 3305 4785`}</p>
                     </div>
                     <div className="web d-flex">
-                        <i className="fas fa-globe me-2"></i>
+                        <span className="me-2 icon-contacto" > <BsGlobe2 /> </span> 
                         <p className="">www.ebgchile.cl</p>
                     </div>
                 </div>
@@ -29,7 +31,7 @@ export const Ubicacion = () => {
                 <div className="direccion">
                     <p className="h5 mb-3" >Dirección</p>
                     <div className="direccion d-flex">
-                        <i className="fas fa-map-marker-alt me-2"></i>
+                        <span className="me-2 icon-contacto" > <FaMapMarkerAlt /> </span> 
                         <p className="">Av. Fernández Albano 856 <br/> La Cisterna, Santiago RM <br/> Chile.</p>
                     </div>
                 </div>

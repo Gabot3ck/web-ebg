@@ -10,7 +10,7 @@
     text-align: center;
     background-color: var(--color-fondo); 
 }
-.bi-whatsapp {
+.whatsapp {
     font-size: 2.8rem;
     color: var(--color-logo); 
 }
@@ -24,7 +24,6 @@
     background: red;
 }
 .btn-whatsapp .caja span{
-    
     color: var(--color-fondo);
     font-size: .8rem;
     font-weight: 600;

@@ -71,6 +71,9 @@
 .fa-map-marker-alt{
     color: var(--color-principal);
 }
+.icon-contacto{
+    color: var(--color-principal);
+}
 .wrapper_mapa{
     height: 350px;
     box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
