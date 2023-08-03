@@ -7,14 +7,20 @@ export const Odometro = ({ inicia, termina}) => {
     const [value, setValue] = useState(inicia);
 
     useEffect(() => {
-        const timeoutId = setTimeout(() => setValue(termina), 2000);
+        const timeoutId = setTimeout(() => setValue(termina), 400);
         return () => {
             clearTimeout(timeoutId);
         };
     }, [termina]);
 
     return (<>
-        <Odometer className='odometro' value={value} format="(.ddd),dd" />
+
+        <Odometer
+            className='odometro' 
+            value={ value } 
+            format="(.ddd),dd" 
+        />
+
     </>)
     
     
