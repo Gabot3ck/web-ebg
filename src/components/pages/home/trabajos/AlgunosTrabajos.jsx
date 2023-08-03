@@ -1,6 +1,7 @@
 import { MdCalendarMonth } from "react-icons/md";
 import { IoConstruct } from "react-icons/io5";
 import { GoContainer } from "react-icons/go";
+import { BsGeoAltFill } from "react-icons/bs";
 import LaReina from "../../../../assets/images/proyectos/la_reina/card_lareina.jpg";
 import vitacura from "../../../../assets/images/proyectos/vitacura/aeropuerto_card.jpeg";
 import OficinaEnel from "../../../../assets/images/proyectos/edificio_enel/card_portada_enel.jpg";
@@ -45,8 +46,8 @@ export const AlgunosTrabajos = () => {
                 <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={ LaReina } 
-                        tituloCard="Caseta Municipal La Reina"
-                        titulo="Caseta Municipal"
+                        tituloCard="Centro de Seguridad Municipal La Reina"
+                        titulo="1° Centro de Seguridad Municipal de La Reina"
                         area="Edificación"
                         foto1={ foto3 }
                         foto2={ foto1 }
@@ -57,23 +58,23 @@ export const AlgunosTrabajos = () => {
                         {<>
                             <p className="mb-3 text_justify" >Construcción del  "Centro de Seguridad Comunitaria Unidad Vecinal N°1" en la comuna de La Reina.</p>
                             <p className="mb-2 text_justify">
-                                <i className="bi bi-geo-alt-fill"></i>
+                                <BsGeoAltFill />
                                 <span className="fw-semibold " > Lugar: </span>Av. Sánchez Fontecilla esquina Eliecer Parada, La Reina, Santiago RM.
                             </p>
                             <p className="mb-2">
-                                <MdCalendarMonth className="" />
+                                <MdCalendarMonth />
                                 <span className="fw-semibold " > Fecha de inicio: </span>10 diciembre 2022.
                             </p>
                             <p className="mb-2">
-                                <MdCalendarMonth className="" />
+                                <MdCalendarMonth />
                                 <span className="fw-semibold " > Fecha de término: </span>25 junio 2023.
                             </p>
                             <p className="mb-2">
-                                <GoContainer className="" />
+                                <GoContainer />
                                 <span className="fw-semibold "> m<sup>2</sup>: </span>  100  m<sup>2.</sup>
                             </p>
                             <p className="mb-2 text_justify">
-                                <IoConstruct className="" />
+                                <IoConstruct />
                                 <span className="fw-semibold " > Actividades:</span> Mejoramiento de suelo, fundaciones, carpintería metálica, ventanas termopanel, tabiquería,
                                 piso fotolaminado. Instalaciones eléctricas, sanitarias, climatización. Revestimiento exterior, terraza, pintura, gráficas y paisajismo.
                             </p>
@@ -84,8 +85,8 @@ export const AlgunosTrabajos = () => {
                 <section className="trabajos_card px-2">
                     <ModalProyectos 
                         img={ vitacura } 
-                        tituloCard="Aeropuerto Internacional A. Merino Benitez"
-                        titulo="Proyecto OOCC"
+                        tituloCard="Aeropuerto Internacional A. Merino Benítez"
+                        titulo="Proyecto de Obras Civiles"
                         area="Obras civiles"
                         foto1={ vitacura1 }
                         foto2={ vitacura2 }
@@ -94,9 +95,9 @@ export const AlgunosTrabajos = () => {
                         alt='Construcción de cámaras y bóvedas de redes eléctricas de baja y mediana tensión'
                     >
                         {<>
-                            <p className="mb-3 text_justify" >Construcción de bóvedas y cámaras de redes eléctricas de baja y mediana tensión para la empresa Nuevo Pudahuel.</p>
+                            <p className="mb-3 text_justify" >Construcción de bóvedas y cámaras de redes eléctricas de baja y mediana tensión para la empresa Nuevo Pudahuel dentro del Aeropuerto Internacional Arturo Merino Benítez.</p>
                             <p className="mb-2 text_justify">
-                                <i className="bi bi-geo-alt-fill"></i>
+                                <BsGeoAltFill />
                                 <span className="fw-semibold " > Lugar: </span>Pudahel, Santiago de Chile, RM.
                             </p>
                             <p className="mb-2">
@@ -132,9 +133,9 @@ export const AlgunosTrabajos = () => {
                         alt='Remodelaciones y reparaciones de oficinas corporativas ENEL Chile'
                     >
                         {<>
-                            <p className="mb-3 text_justify" >Reparación y remodelación de las oficinas corporativas en los piso 4, 9, 12, 13 y 16 del edifico principal de la empresa ENEL Chile.</p>
+                            <p className="mb-3 text_justify" >Reparación y remodelación de las oficinas corporativas en los piso 4, 9, 12, 13 y 16 del edifico principal y sucursales de la empresa ENEL Chile.</p>
                             <p className="mb-2 text_justify">
-                                <i className="bi bi-geo-alt-fill"></i>
+                                <BsGeoAltFill />
                                 <span className="fw-semibold " > Lugar: </span>AV. Santa Rosa 76, Santiago RM.
                             </p>
                             <p className="mb-2">
@@ -174,7 +175,7 @@ export const AlgunosTrabajos = () => {
                         {<>
                             <p className="mb-3 text_justify" >Construcción modular y estructura metálica de una planta industrial de fabricación y ensamblaje de explosivos mineros.</p>
                             <p className="mb-2 text_justify">
-                                <i className="bi bi-geo-alt-fill"></i>
+                                <BsGeoAltFill />
                                 <span className="fw-semibold " > Lugar: </span>Las Barrancas, IV Región Coquimbo.
                             </p>
                             <p className="mb-2">

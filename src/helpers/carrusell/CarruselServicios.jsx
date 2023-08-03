@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useInView } from 'react-intersection-observer';
 import { EnlacesCarrusel } from "./EnlacesCarrusel";
 import consultoria from "../../assets/images/carrusel_servicios/consultoria.jpg";
-import obrasCiviles from "../../assets/images/carrusel_servicios/obras-civiles.jpg";
-import container from "../../assets/images/carrusel_servicios/industrial.jpg";
+import obras from "../../assets/images/carrusel_servicios/obras.jpg";
+import industrial from "../../assets/images/carrusel_servicios/industrial.jpg";
 import remodelacion from "../../assets/images/carrusel_servicios/remodelacion.jpg";
 import "./Carrusel.css";
 
@@ -53,7 +53,7 @@ export const CarruselServicios = () => {
                 <div className="carousel-inner w-100">
                     
                     <div className="carousel-item d-flex flex-column flex-md-row active ">
-                        <img src= { obrasCiviles } alt="Trabajos de Obras Civiles en EBG"/>
+                        <img src= { obras } alt="Trabajos de Obras Civiles en EBG"/>
                         <div className="caption texto-servicios py-3 py-lg-0 ">
                             <h3 className="">Obras Civiles</h3>
                             <p className="step-3 mb-3 mb-lg-0">
@@ -87,7 +87,7 @@ export const CarruselServicios = () => {
                     </div>
                     
                     <div className="carousel-item d-flex flex-column flex-md-row">
-                        <img src= { container  }  alt="..."/>
+                        <img src= { industrial  }  alt="Ejecución de estructuras metálicas"/>
                         <div className="caption texto-servicios py-3 py-lg-0">
                             <h3 className="">Obras Industriales</h3>
                             <p className="mb-3 mb-lg-0 step-3">
@@ -104,7 +104,7 @@ export const CarruselServicios = () => {
                     </div>
                     
                     <div className="carousel-item d-flex flex-column flex-md-row">
-                        <img src= { consultoria}  alt="..."/>
+                        <img src= { consultoria}  alt="Asesoría en construcción y arquitectura"/>
                         <div className="caption texto-servicios py-3 py-lg-0">
                             <h3 className="">Asesoría</h3>
                             <p className=" mb-3 mb-lg-0 step-3">
