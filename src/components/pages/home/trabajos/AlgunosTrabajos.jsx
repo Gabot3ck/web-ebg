@@ -63,11 +63,11 @@ export const AlgunosTrabajos = () => {
                             </p>
                             <p className="mb-2">
                                 <MdCalendarMonth />
-                                <span className="fw-semibold " > Fecha de inicio: </span>10 diciembre 2022.
+                                <span className="fw-semibold " > Fecha de inicio: </span>02 febrero 2023.
                             </p>
                             <p className="mb-2">
                                 <MdCalendarMonth />
-                                <span className="fw-semibold " > Fecha de término: </span>25 junio 2023.
+                                <span className="fw-semibold " > Fecha de término: </span>10 abril  2023.
                             </p>
                             <p className="mb-2">
                                 <GoContainer />
