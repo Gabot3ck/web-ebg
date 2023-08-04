@@ -40,8 +40,7 @@ export const AlgunosTrabajos = () => {
             
             <main
                 
-                className={`mx-auto px-2 w-100  d-flex flex-column flex-lg-row align-items-center justify-content-evenly wrapper_trabajos_card
-                `}>
+                className={`mx-auto px-2 w-100  d-flex flex-column flex-lg-row align-items-center justify-content-evenly wrapper_trabajos_card`}>
 
                 <section className="trabajos_card px-2">
                     <ModalProyectos 

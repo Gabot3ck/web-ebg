@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { BsLinkedin } from "react-icons/bs";
 import "./Footer.css";
 
 
@@ -24,12 +25,13 @@ export const Footer = () => {
                     <ul className="d-flex justify-content-around ">
                         <li>
                             <a 
+                                className="bi-linkedin"
                                 href="https://www.linkedin.com/company/ebg-chile/mycompany/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 aria-label="Enlace al LinkedIn de EBG Ingeniería y Construcción"
                             >
-                                <i className="bi bi-linkedin"></i>
+                                <BsLinkedin />
                             </a>
                         </li>
                     </ul>

@@ -23,7 +23,10 @@ export const ModalProyectos = ({
         <button type="button" className="btn_modal px-0 rounded " data-bs-toggle="modal" data-bs-target={`#${img}`} aria-label="Mostrar Proyecto">
             <img src={ img } alt={ alt } className="rounded-top" />
             <h3 className="fs-5 text-center">{ tituloCard }</h3>
-            <p className="text-decoration-underline" >{area}</p>
+            <p className="" >
+                {area} <br/>
+                <span className="text-decoration-underline " > VER MÁS </span>
+            </p>
         </button>
 
 

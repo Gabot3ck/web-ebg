@@ -5,7 +5,7 @@ footer{
 .footer_pie{
     width: clamp(300px, 80%, 1320px);
 }
-.bi-linkedin, .bi-instagram{
+.bi-linkedin{
     color: var(--color-principal);
 }
 .pie_copyright p{

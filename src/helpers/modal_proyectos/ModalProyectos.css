@@ -9,7 +9,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 70px;
+    bottom: 80px;
     margin: auto;
     display: none;
     color: var(--color-fondo);
@@ -18,15 +18,19 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 40px;
+    bottom: 20px;
     z-index: 500;
     margin: auto;
     display: none;
-    color: var(--color-logo);
+    color: whitesmoke;
     font-weight: 500;
-    font-size: .83rem;
+    font-size: .9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+.btn_modal P span{
+    color: var(--color-logo);
+    font-size: .8rem;
 }
 .btn_modal:hover h3,
 .btn_modal:hover p{
